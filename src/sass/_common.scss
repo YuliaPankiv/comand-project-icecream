@@ -1,1 +1,134 @@
-@import '~node_modules/modern-normalize/modern-normalize.css';
+// background color
+$primaryColor: #84a178;
+
+// background and text color
+$secondaryColor: #fcfcfc;
+// textcolor
+$textColor: #131313;
+
+// title font family
+$titleFontFamily: 'Seymour One';
+// background color for product section
+$productsFirstBackgroundColor: #aec6a5;
+$productsSecondBackgroundColor: #efd478;
+$productsThirdBackgrondColor: #d6936d;
+// buttons color
+$bottonDefoultColor: #f8d24e;
+// hover color
+$bottonActiveBackgroundColor: #0a8817;
+// breakpoints
+$phone: 480px;
+$tablet: 768px;
+$desktop: 1200px;
+
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+body {
+  font-family: Montserrat, sans-serif;
+  font-weight: 400;
+}
+
+.container {
+  margin: 0 auto;
+  padding: 0 15px;
+
+  // phone screen
+  @media screen and (max-width: $phone) {
+    max-width: $phone;
+  }
+  @media screen and (min-width: 481px) and (max-width: $tablet) {
+    max-width: $tablet;
+  }
+  @media screen and (min-width: 769px) {
+    max-width: $desktop;
+  }
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  -webkit-clip-path: inset(100%);
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+.list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.link {
+  text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+a,
+li,
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+.title {
+  font-family: '$titleFontFamily';
+  font-size: 30px;
+  font-weight: 400;
+  line-height: calc(43 / 30);
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  text-align: center;
+  @media screen and (min-width: 768px) {
+    font-size: 34px;
+    line-height: calc(43 / 34);
+    letter-spacing: 0.06em;
+  }
+  @media screen and (min-width: 1200px) {
+    font-size: 36px;
+    line-height: calc(45 / 36);
+  }
+}
+
+.pretitle {
+  font-family: inherit;
+  font-size: 18px;
+  font-weight: 800;
+  line-height: calc(22 / 18);
+  text-align: center;
+  text-transform: uppercase;
+  @media screen and (min-width: 768px) {
+    font-size: 22px;
+    line-height: (27/22);
+    letter-spacing: 0.04em;
+  }
+  @media screen and (min-width: 1200px) {
+    font-size: 30px;
+    line-height: calc(37 / 30);
+  }
+}
+
+.button {
+  display: inline-block;
+  border-radius: 10px;
+  align-items: center;
+}
