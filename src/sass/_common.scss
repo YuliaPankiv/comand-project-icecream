@@ -36,30 +36,20 @@ body {
 
 .container {
   width: 100%;
-
   padding-left: 20px;
-
   padding-right: 20px;
-
   margin: 0 auto;
-
   @media screen and (min-width: 480px) {
     width: 480px;
   }
-
   @media screen and (min-width: 768px) {
     width: 768px;
-
     padding-left: 32px;
-
     padding-right: 32px;
   }
-
   @media screen and (min-width: 1200px) {
     width: 1200px;
-
     padding-left: 16px;
-
     padding-right: 16px;
   }
 }
@@ -130,7 +120,7 @@ ul {
   text-transform: uppercase;
   @media screen and (min-width: 768px) {
     font-size: 22px;
-    line-height: (27 / 22);
+    line-height: calc(27 / 22);
     letter-spacing: 0.04em;
   }
   @media screen and (min-width: 1200px) {
