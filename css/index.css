@@ -77,7 +77,7 @@ ul {
   padding: 0;
 }
 
-.title {
+.title, .about__title {
   font-family: "$titleFontFamily";
   font-size: 30px;
   font-weight: 400;
@@ -87,20 +87,20 @@ ul {
   text-align: center;
 }
 @media screen and (min-width: 768px) {
-  .title {
+  .title, .about__title {
     font-size: 34px;
     line-height: 1.2647058824;
     letter-spacing: 0.06em;
   }
 }
 @media screen and (min-width: 1200px) {
-  .title {
+  .title, .about__title {
     font-size: 36px;
     line-height: 1.25;
   }
 }
 
-.pretitle {
+.pretitle, .about__pretitle {
   font-family: inherit;
   font-size: 18px;
   font-weight: 800;
@@ -109,21 +109,158 @@ ul {
   text-transform: uppercase;
 }
 @media screen and (min-width: 768px) {
-  .pretitle {
+  .pretitle, .about__pretitle {
     font-size: 22px;
     line-height: 1.2272727273;
     letter-spacing: 0.04em;
   }
 }
 @media screen and (min-width: 1200px) {
-  .pretitle {
+  .pretitle, .about__pretitle {
     font-size: 30px;
     line-height: 1.2333333333;
   }
 }
 
-.button {
+.button, .about__button {
   display: inline-block;
   border-radius: 10px;
   align-items: center;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.img {
+  display: block;
+  max-width: 100%;
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.about {
+  padding-top: 60px;
+  padding-bottom: 60px;
+  background-color: #84a178;
+}
+
+.about__pretitle {
+  color: #fcfcfc;
+}
+
+.about__title {
+  color: #fcfcfc;
+  font-family: "Seymour One";
+  margin-top: 16px;
+  margin-right: 60px;
+  margin-left: 60px;
+}
+@media screen and (min-width: 1200px) {
+  .about__title {
+    margin-bottom: 72px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .about__title {
+    margin-bottom: 82px;
+  }
+}
+
+.about__box {
+  display: block;
+  margin-top: 54px;
+}
+@media screen and (min-width: 1200px) {
+  .about__box {
+    display: flex;
+  }
+}
+
+.cow-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 279px;
+  height: 278px;
+  border-radius: 50%;
+  box-shadow: 0 4.48583px 16.8218px rgba(153, 114, 23, 0.25);
+  background: linear-gradient(0deg, #d9d9d9 rgba(248, 210, 78, 0.7), rgba(248, 210, 78, 0.7));
+}
+@media screen and (min-width: 1200px) {
+  .cow-box {
+    width: 490px;
+    height: 490px;
+  }
+}
+
+.about__content {
+  width: 100%;
+  margin-top: 40px;
+}
+@media screen and (min-width: 1200px) {
+  .about__content {
+    display: block;
+    width: 463px;
+    margin-left: 109px;
+  }
+}
+
+.about__picture {
+  display: block;
+  width: 100%;
+  height: auto;
+  margin-bottom: 40px;
+}
+@media screen and (min-width: 1200px) {
+  .about__picture {
+    transform: translateY(40px);
+  }
+}
+
+.about__text {
+  color: #fcfcfc;
+  font-size: 12px;
+  line-height: 1.75;
+  line-height: 176%;
+  margin-top: 40px;
+  text-align: center;
+}
+@media screen and (min-width: 1200px) {
+  .about__text {
+    margin-bottom: 32px;
+    font-family: inherit;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.75;
+    line-height: 176%;
+    letter-spacing: 0.04em;
+    margin-bottom: 54px;
+  }
+}
+
+.about__paragraph:not(:last-child) {
+  margin-bottom: 8px;
+}
+
+.about__button {
+  display: flex;
+  margin: 0 auto;
+  margin-top: 10px;
+  font-family: inherit;
+  font-weight: 600;
+  font-size: 14px;
+  color: #000000;
+  background-color: #f8d24e;
+  border: none;
+  padding: 12px 35px;
+  line-height: 1.2857142857;
+}
+@media screen and (min-width: 1200px) {
+  .about__button {
+    margin-top: 54px;
+    padding: 12px 35px;
+  }
+}
+
+.about__button-text {
+  margin-right: 4px;
 }/*# sourceMappingURL=index.css.map */

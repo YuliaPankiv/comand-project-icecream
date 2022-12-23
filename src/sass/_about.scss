@@ -1,0 +1,114 @@
+.about {
+  padding-top: 60px;
+  padding-bottom: 60px;
+  background-color: $primaryColor;
+}
+.about__pretitle {
+  @extend .pretitle;
+  color: $secondaryColor;
+}
+.about__title {
+  @extend .title;
+  color: $secondaryColor;
+  font-family: 'Seymour One';
+  margin-top: 16px;
+  margin-right: 60px;
+  margin-left: 60px;
+  @media screen and (min-width: 1200px) {
+    margin-bottom: 72px;
+  }
+  @media screen and (min-width: 1200px) {
+    margin-bottom: 82px;
+  }
+}
+
+.about__box {
+  display: block;
+  margin-top: 54px;
+  @media screen and (min-width: 1200px) {
+    display: flex;
+  }
+}
+.cow-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 279px;
+  height: 278px;
+  border-radius: 50%;
+  box-shadow: 0 4.48583px 16.8218px rgb(153 114 23 / 25%);
+  background: linear-gradient(
+    0deg,
+    #d9d9d9 rgba(248, 210, 78, 0.7),
+    rgba(248, 210, 78, 0.7)
+  );
+  @media screen and (min-width: 1200px) {
+    width: 490px;
+    height: 490px;
+  }
+}
+
+.about__content {
+  width: 100%;
+  margin-top: 40px;
+  @media screen and (min-width: 1200px) {
+    display: block;
+    width: 463px;
+    margin-left: 109px;
+  }
+}
+
+.about__picture {
+  display: block;
+  width: 100%;
+  height: auto;
+  margin-bottom: 40px;
+  // transform: translateY(20px);
+  @media screen and (min-width: 1200px) {
+    transform: translateY(40px);
+  }
+}
+.about__text {
+  color: $secondaryColor;
+  font-size: 12px;
+  line-height: calc(21 / 12);
+  line-height: 176%;
+  margin-top: 40px;
+  text-align: center;
+
+  @media screen and (min-width: 1200px) {
+    margin-bottom: 32px;
+    font-family: inherit;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: calc(28 / 16);
+    line-height: 176%;
+    letter-spacing: 0.04em;
+
+    margin-bottom: 54px;
+  }
+}
+.about__paragraph:not(:last-child) {
+  margin-bottom: 8px;
+}
+.about__button {
+  @extend .button;
+  display: flex;
+  margin: 0 auto;
+  margin-top: 10px;
+  font-family: inherit;
+  font-weight: 600;
+  font-size: 14px;
+  color: $bottonBorderColor;
+  background-color: $bottonDefoultColor;
+  border: none;
+  padding: 12px 35px;
+  line-height: calc(18 / 14);
+  @media screen and (min-width: 1200px) {
+    margin-top: 54px;
+    padding: 12px 35px;
+  }
+}
+.about__button-text {
+  margin-right: 4px;
+}

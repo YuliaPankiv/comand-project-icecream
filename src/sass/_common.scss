@@ -7,7 +7,7 @@ $secondaryColor: #fcfcfc;
 $textColor: #131313;
 
 // title font family
-$titleFontFamily: 'Seymour One';
+$titleFontFamily: 'Seymour One', sans-serif;
 // background color for product section
 $productsFirstBackgroundColor: #aec6a5;
 $productsSecondBackgroundColor: #efd478;
@@ -133,4 +133,13 @@ ul {
   display: inline-block;
   border-radius: 10px;
   align-items: center;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.img {
+  display: block;
+  max-width: 100%;
+  padding-left: 0;
+  padding-right: 0;
 }
