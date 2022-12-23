@@ -1,0 +1,131 @@
+.advantages{
+    background-color: $primaryColor;
+    padding-bottom: 64px;
+    padding-top: 50px;
+    }
+    
+    // .advantages-block{
+        
+    // }
+    
+    .advantages-list{
+    display: block;
+    // @media screen and (max-width: $phone){
+    //     width: 100%;
+    //     margin-left: auto;
+    //     margin-right: auto;
+    // }
+
+    
+    @media screen and (min-width: $tablet){
+        display: flex;
+        align-items: flex-end;
+    }
+       
+    }
+
+
+  .advantages-list__item::before{
+    content: " ";
+    display: block;
+    height: 50px;
+    width: 50px;
+    border-radius: 4px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: $bottonDefoultColor;
+    margin-left: auto;
+    margin-right: auto;
+    // margin-bottom: 40px;
+    border-radius: 25px;
+  }  
+    
+.icon-cow::before{
+    background-image: url(../images/cow.svg);
+    margin-bottom: 16px;
+    // margin-top: 50px;
+
+    @media screen and (min-width: $tablet){
+        margin-bottom: 32px;
+    }
+    @media screen and (min-width: $desktop){
+        margin-bottom: 40px;
+    }
+}
+
+.icon-weight::before{
+    background-image: url(../images/weight.svg);
+    margin-bottom: 16px;
+    margin-top: 28px;
+
+    @media screen and (min-width: $tablet){
+        margin-bottom: 32px;
+    }
+    @media screen and (min-width: $desktop){
+        margin-bottom: 40px;
+    }
+}
+
+.icon-icecream::before{
+    background-image: url(../images/icecream.svg);
+    
+    margin-bottom: 22px;
+    margin-top: 22px;
+
+    @media screen and (min-width: $tablet){
+        margin-bottom: 32px; 
+    }
+    @media screen and (min-width: $desktop){
+        margin-bottom: 40px;
+    }
+}
+
+
+
+.advantages-list__text{
+
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 1.7;
+    text-align: center;
+    color: $secondaryColor;
+    padding: 0px 30px;
+
+    @media screen and (min-width: $tablet){
+        font-size: 14px;
+        line-height: 1.74;
+        
+
+    }
+    @media screen and (min-width: $desktop){
+
+        font-size: 16px;
+        line-height: 1.76;
+
+    }
+
+
+}
+  
+
+    .advantages-list__title{
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 0.81;
+        text-align: center;
+        letter-spacing: 0.04em;
+        text-transform: uppercase;
+        color: $secondaryColor;
+        margin-bottom: 16px;
+    
+        @media screen and (min-width: $tablet){
+            font-size: 48px;
+        line-height: 0.82;
+        }
+
+        @media screen and (min-width: $desktop){
+
+            font-size: 58px;
+            
+        }
+    }
