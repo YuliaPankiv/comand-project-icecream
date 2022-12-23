@@ -1,8 +1,35 @@
 <div class="backdrop is-hidden" data-modal>
-        <div class="modal">
-          <form name="modal-form" class="modal__form">
-            <p class="modal__title">Залиште свої дані, ми вам передзвонимо</p>
-            <label class="modal__text" for="user-name" name="user-name">Ім'я</label>
+        <div class="modal__product">
+          <form name="modal-product-form" class="modal__product__form">
+            <p class="modal__product__title">Buy now</p>
+
+            <div>
+            <label for="product-user-name" name="product-user-name"> </label>
+            <input class="modal__product__name" type="text" name="product-user-name" id="product-user-name" placeholder="Name">
+            </div>
+            <div>
+              <label for="product-user-tel" name="product-user-tel"> </label>
+            <input class="modal__product__tel" type="tel" name="product-user-tel" id="product-user-tel" placeholder="Phone">
+            </div>
+            <div>
+            <label for="product-user-comment" name="product-user-comment"> </label>
+            <textarea class="modal__product__comment" name="product-user-comment" id="product-user-comment" placeholder="Comment"></textarea>
+            </div>        
+
+            <button class="modal__product__submit" type="submit">Submit</button>
+          </form>
+        </div>
+  </div>
+
+
+          
+            
+            
+
+            
+            
+            
+            <!-- <label class="modal__product__text" for="user-name" name="user-name">Ім'я</label>
             <div class="modal__block">             
             <input class="modal__fields"  type="text" name="user-name" id="user-name">
             <svg class="modal__icon" width="18" height="18">
@@ -36,9 +63,9 @@
                        
                 <a class="modal__link--underlined" href="#">Умови договору</a>
             </label>           
-            </div>
+            </div> -->
                       
-            <button class="modal__btn" type="submit">Відправити</button>
+            <!-- <button class="modal__btn" type="submit">Відправити</button>
           </form>
 
           <button class="modal__btn--closed" type="button" data-modal-close>
@@ -46,6 +73,6 @@
               <use href=""></use>
             </svg>
              
-          </button>
+          </button> -->
         </div>
       </div>
