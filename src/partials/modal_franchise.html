@@ -1,0 +1,64 @@
+<div class="backdrop is-hidden" data-modal>
+  <div class="modal franchise">
+    <form name="modal-franchise-form" class="modal__form">
+      <h4 class="modal__title">
+        Thank you for your interest in owning an Ice Cream shop
+      </h4>
+      <p class="modal__text">
+        Due to the overwhelming volume of franchise requests we are not
+        accepting new franchisee applications at this time. Once the application
+        process resumes, we will contact you for further information. Please
+        fill out the contact information below and we will reach out for
+        additional information. We appreciate your patience.
+      </p>
+
+      <div>
+        <label for="franchise-user-name" name="franchise-user-name"> </label>
+        <input
+          class="modal__name"
+          type="text"
+          name="franchise-user-name"
+          id="franchise-user-name"
+          placeholder="Name"
+        />
+      </div>
+      <div>
+        <label for="franchise-user-tel" name="franchise-user-tel"> </label>
+        <input
+          class="modal__tel"
+          type="tel"
+          name="franchise-user-tel"
+          id="franchise-user-tel"
+          placeholder="Phone"
+        />
+      </div>
+      <div>
+        <label for="franchise-user-email" name="franchise-user-email"> </label>
+        <input
+          class="modal__email"
+          type="email"
+          name="franchise-user-email"
+          id="franchise-user-email"
+          placeholder="Email"
+        />
+      </div>
+      <div>
+        <label for="franchise-user-comment" name="franchise-user-comment">
+        </label>
+        <textarea
+          class="modal__comment"
+          name="franchise-user-comment"
+          id="franchise-user-comment"
+          placeholder="Comment"
+        ></textarea>
+      </div>
+
+      <button class="modal__submit" type="submit">Submit</button>
+    </form>
+    <button class="modal__btn--closed" type="button" data-modal-close>
+      <svg width="12" height="12">
+        <use href="./images/modal_close_btn.svg"></use>
+      </svg>
+    </button>
+  </div>
+</div>

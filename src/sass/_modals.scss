@@ -1,10 +1,218 @@
-.modal__product{
-    display: block;
-    
+.modal {
+  & p,
+  & h4,
+  & li,
+  & ul,
+  & a {
+    margin: 0;
+    padding: 0;
+  }
+}
+.modal {
+  & a {
+    text-decoration: none;
+  }
+  & ul {
+    list-style: none;
+  }
 }
 
-.modal__product__name{
-background: rgba(248, 210, 78, 0.1);
-border: 1px solid #84A178;
-border-radius: 10px;
+.backdrop {
+  position: relative;
+}
+
+.modal {
+  display: block;
+  width: 100vw;
+  height: 100vh;
+  padding-left: 28px;
+  padding-right: 28px;
+  background: #fcfcfc;
+  border-radius: 10px;
+}
+
+.modal__title {
+  margin-bottom: 20px;
+  padding-top: 28px;
+  font-family: 'Seymour One';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+
+  // display: flex;
+  // align-items: center;
+  text-align: center;
+  color: #131313;
+}
+
+.modal__text {
+  margin-bottom: 24px;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.4;
+  color: #131313;
+}
+
+.modal__name,
+.modal__tel,
+.modal__email,
+.modal__comment {
+  width: 100%;
+  background: rgba(248, 210, 78, 0.1);
+  border: 1px solid #84a178;
+  border-radius: 10px;
+
+  padding-left: 12px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 1.4;
+  color: #131313;
+}
+.franchise .modal__name,
+.franchise .modal__tel,
+.franchise .modal__email {
+  margin-bottom: 12px;
+}
+.franchise .modal__comment {
+  margin-bottom: 26px;
+}
+.product .modal__name,
+.product .modal__tel {
+  margin-bottom: 12px;
+}
+.product .modal__comment {
+  margin-bottom: 26px;
+}
+.modal__submit {
+  display: block;
+  min-width: 114px;
+  height: 42px;
+  margin: 0 auto;
+  padding: 0 auto;
+  background: #f8d24e;
+  border-radius: 10px;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 15px;
+  // display: flex;
+  // align-items: center;
+  text-align: center;
+  color: #131313;
+}
+
+.map__box {
+  width: 224px;
+  height: 199px;
+  margin-bottom: 24px;
+  background-image: url(../images/map.png);
+}
+.modal__btn--closed {
+  position: absolute;
+  top: 12px;
+  right: 12px;
+  width: 20px;
+  height: 20px;
+}
+.modal__video {
+  width: 224px;
+  height: 199px;
+  background-color: #131313;
+  border-radius: 10px;
+}
+.map__btn {
+  // display: block;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 114px;
+  height: 42px;
+  margin: 0 auto;
+  padding: 0 auto;
+  background: #f8d24e;
+  border-radius: 10px;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 15px;
+  text-align: center;
+  color: #131313;
+}
+.modal__map {
+  color: #131313;
+}
+.ingradients {
+  display: block;
+  width: 100vw;
+  height: 100vh;
+  padding-left: 20px;
+  padding-right: 20px;
+  background: #fcfcfc;
+  border-radius: 10px;
+}
+.ingradients__title {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  font-family: 'Seymour One';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 1.4;
+  color: #131313;
+}
+.ingradients__titlelist {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #131313;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.4;
+}
+
+.ingradients__text {
+  //  display: flex;
+  // align-items: center;
+  // text-align: center;
+
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.76;
+  letter-spacing: 0.04em;
+  color: #131313;
+}
+.ingradients__box {
+  display: flex;
+  // flex-direction: column;
+  justify-content: space-between;
+  // gap: 11px;
+}
+.ingradients .modal__name,
+.ingradients .modal__tel {
+  margin-bottom: 16px;
+}
+.ingradients .modal__comment {
+  margin-bottom: 24px;
+}
+.ingradients__box--wrapped {
+  margin-bottom: 40px;
+}
+.ingradients__field {
+  display: flex;
+  justify-content: space-around;
 }

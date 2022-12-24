@@ -1,0 +1,181 @@
+<div class="backdrop is-hidden" data-modal>
+  <div class="modal ingradients">
+    <form name="modal-ingradients-form" class="modal__form">
+      <h4 class="ingradients__title">Chololate icecream</h4>
+      <div>
+        <img
+          scrset="./images/modals/ingredients/mob_ingr1_@1x_132.jpg 1x, ./images/modals/ingredients/mob_ingr1_@2x_264.jpg 2x"
+          src="./images/modals/ingredients/mob_ingr1_@1x_132.jpg"
+          alt="ice-cream"
+          width="132"
+        />
+      </div>
+      <ul>
+        <li>
+          <picture>
+            <source
+              media="(min-width: 768px)"
+              srcset="
+                ./images/modals/ingredients/tab_comp1_@1x_65.jpg  1x,
+                ./images/modals/ingredients/tab_comp1_@2x_130.jpg 2x
+              "
+              type="image/jpg"
+            />
+            <source
+              media="(max-width: 767px)"
+              srcset="
+                ./images/modals/ingredients/mob_comp1_@1x_53.jpg  1x,
+                ./images/modals/ingredients/mob_comp1_@2x_106.jpg 2x
+              "
+              type="image/jpg"
+            />
+            <img
+              src="./images/modals/ingredients/mob_comp1_@1x_53.jpg"
+              alt="320 Kcal"
+            />
+          </picture>
+        </li>
+        <li>
+          <picture>
+            <source
+              media="(min-width: 768px)"
+              srcset="
+                ./images/modals/ingredients/tab_comp2_@1x_65.jpg  1x,
+                ./images/modals/ingredients/tab_comp2_@2x_130.jpg 2x
+              "
+              type="image/jpg"
+            />
+            <source
+              media="(max-width: 767px)"
+              srcset="
+                ./images/modals/ingredients/mob_comp2_@1x_53.jpg  1x,
+                ./images/modals/ingredients/mob_comp2_@2x_106.jpg 2x
+              "
+              type="image/jpg"
+            />
+            <img
+              src="./images/modals/ingredients/mob_comp2_@1x_53.jpg"
+              alt="320 Kcal"
+            />
+          </picture>
+        </li>
+        <li>
+          <picture>
+            <source
+              media="(min-width: 768px)"
+              srcset="
+                ./images/modals/ingredients/tab_comp3_@1x_65.jpg  1x,
+                ./images/modals/ingredients/tab_comp3_@2x_130.jpg 2x
+              "
+              type="image/jpg"
+            />
+            <source
+              media="(max-width: 767px)"
+              srcset="
+                ./images/modals/ingredients/mob_comp3_@1x_53.jpg  1x,
+                ./images/modals/ingredients/mob_comp3_@2x_106.jpg 2x
+              "
+              type="image/jpg"
+            />
+            <img
+              src="./images/modals/ingredients/mob_comp3_@1x_53.jpg"
+              alt="320 Kcal"
+            />
+          </picture>
+        </li>
+        <li>
+          <picture>
+            <source
+              media="(min-width: 768px)"
+              srcset="
+                ./images/modals/ingredients/tab_comp4_@1x_65.jpg  1x,
+                ./images/modals/ingredients/tab_comp4_@2x_130.jpg 2x
+              "
+              type="image/jpg"
+            />
+            <source
+              media="(max-width: 767px)"
+              srcset="
+                ./images/modals/ingredients/mob_comp4_@1x_53.jpg  1x,
+                ./images/modals/ingredients/mob_comp4_@2x_106.jpg 2x
+              "
+              type="image/jpg"
+            />
+            <img
+              src="./images/modals/ingredients/mob_comp4_@1x_53.jpg"
+              alt="320 Kcal"
+            />
+          </picture>
+        </li>
+      </ul>
+
+      <h5 class="ingradients__titlelist">Ingredients</h5>
+      <ul class="ingradients__box--wrapped">
+        <li class="ingradients__box">
+          <p class="ingradients__text">Milk</p>
+          <p class="ingradients__text">100ml</p>
+        </li>
+        <li class="ingradients__box">
+          <p class="ingradients__text">Belgian chocolate</p>
+          <p class="ingradients__text">20g</p>
+        </li>
+        <li class="ingradients__box">
+          <p class="ingradients__text">Cream</p>
+          <p class="ingradients__text">150 ml</p>
+        </li>
+        <li class="ingradients__box">
+          <p class="ingradients__text">Cocoa powder</p>
+          <p class="ingradients__text">30g</p>
+        </li>
+        <li class="ingradients__box">
+          <p class="ingradients__text">Sugar</p>
+          <p class="ingradients__text">40g</p>
+        </li>
+        <li class="ingradients__box">
+          <p class="ingradients__text">Vanilla sugar</p>
+          <p class="ingradients__text">10g</p>
+        </li>
+      </ul>
+
+      <div>
+        <label for="ingradients-user-name" name="ingradients-user-name">
+        </label>
+        <input
+          class="modal__name"
+          type="text"
+          name="ingradients-user-name"
+          id="ingradients-user-name"
+          placeholder="Name"
+        />
+      </div>
+      <div>
+        <label for="ingradients-user-tel" name="ingradients-user-tel"> </label>
+        <input
+          class="modal__tel"
+          type="tel"
+          name="ingradients-user-tel"
+          id="ingradients-user-tel"
+          placeholder="Phone"
+        />
+      </div>
+
+      <div>
+        <label for="ingradients-user-comment" name="ingradients-user-comment">
+        </label>
+        <textarea
+          class="modal__comment"
+          name="ingradients-user-comment"
+          id="ingradients-user-comment"
+          placeholder="Comment"
+        ></textarea>
+      </div>
+
+      <button class="modal__submit" type="submit">Submit</button>
+    </form>
+    <button class="modal__btn--closed" type="button" data-modal-close>
+      <svg width="12" height="12">
+        <use href="./images/modal_close_btn.svg"></use>
+      </svg>
+    </button>
+  </div>
+</div>
