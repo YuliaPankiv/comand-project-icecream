@@ -1,101 +1,111 @@
 <header class="page-header">
-    <div class="container">
-      <nav class="page-nav">
-        <a href="" class="logo">
-          <img
-            srcset="
-              ../images/header-hero/Logo.png    1x,
-              ../images/header-hero/Logo@2x.png 2x
-            "
-            src="../images/header-hero/Logo.png"
-            alt="icecream logo"
-            width="60"
-          />
-        </a>
-        <ul>
-          <li>
-            <a href="">Home</a>
-          </li>
-          <li>
-            <a href="">How it’s made?</a>
-          </li>
-          <li>
-            <a href="">Our products</a>
-          </li>
-          <li>
-            <a href="">Contact</a>
-          </li>
-        </ul>
-        <button
-          type="button"
-          class="menu-toggle"
-          aria-expanded="false"
-          mobile-menu-button
-        >
-          <svg width="32" height="32" aria-label="Перемикач мобільного меню">
-            <use class="icon-cross" href="../images/header-hero/menu-close.svg"> </use>
-            <use class="icon-menu" href="../images/header-hero/menu-open.svg"></use>
-          </svg>
-        </button>
-      </nav>
-      <button
-        type="button"
-        class="byu-now-btn"
-        aria-expanded="false"
-        byu-now-button
-      >
-        Buy now >
-      </button>
-    </div>
-  </header>
-  <section class="hero">
-    <div class="container">
-      <h1>
-        ice cream <br />
-        made with <br />
-        passion
-      </h1>
-      <button type="button">
-        <a href="">Products</a>
-      </button>
-      <button type="button">
-        <a href="">How it’s made?</a>
-      </button>
+  <div class="container header-container">
+    <a href="" class="logo">
       <img
+        class="logo__img"
         srcset="
-          ../images/header-hero/ice-cream-balls.png    1x,
-          ../images/header-hero/ice-cream-balls@2x.png 2x
+          ../images/hero-header/Logo.png    1x,
+          ../images/hero-header/Logo@2x.png 2x
         "
-        src="../images/header-hero/ice-cream-balls.png"
-        alt="icec ream balls"
-        width="225"
+        src="../images/hero-header/Logo.png"
+        alt="icecream logo"
       />
-      <div>
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-          tempor incididunt ut labore et
-        </p>
-        <svg width="40" height="16">
-          <use class="icon-arrow" href="../images/header-hero/Arrow.svg"></use>
-        </svg>
-      </div>
-      <img
-        srcset="
-          ../images/header-hero/ice-cream-cone.png    1x,
-          ../images/header-hero/ice-cream-cone@2x.png 2x
-        "
-        src="../images/header-hero/ice-cream-cone.png"
-        alt="ice cream cone"
-        width="456"
-      />
-      <ul class="">
-        <li>16
-          <span>cafes</span>
+    </a>
+    <nav class="page-nav">
+      <ul class="main-nav">
+        <li class="main-nav__item">
+          <a class="main-nav__link" href="">Home</a>
         </li>
-        <li>23
-          <span>food trucks</span>
+        <li class="main-nav__item">
+          <a class="main-nav__link" href="">How it’s made?</a>
+        </li>
+        <li class="main-nav__item">
+          <a class="main-nav__link" href="">Our products</a>
+        </li>
+        <li class="main-nav__item">
+          <a class="main-nav__link" href="">Contact</a>
         </li>
       </ul>
+      <button
+        type="button"
+        class="menu-toggle"
+        aria-expanded="false"
+        mobile-menu-button
+      >
+        <svg width="32" height="32" aria-label="Перемикач мобільного меню">
+          <use
+            class="icon-cross"
+            href="../images/hero-header/hero-header.svg#menu-close"
+          ></use>
+          <use
+            class="icon-menu"
+            href="../images/hero-header/hero-header.svg#menu-open"
+          ></use>
+        </svg>
+      </button>
+    </nav>
+    <button
+      type="button"
+      class="byu-now-btn"
+      aria-expanded="false"
+      byu-now-button
+    >
+      Buy now >
+    </button>
+  </div>
+</header>
+<section class="hero">
+  <div class="container">
+    <h1>
+      ice cream <br />
+      made with <br />
+      passion
+    </h1>
+    <button type="button">
+      <a href="">Products</a>
+    </button>
+    <button type="button">
+      <a href="">How it’s made?</a>
+    </button>
+    <img
+      srcset="
+        ../images/hero-header/ice-cream-balls.png    1x,
+        ../images/hero-header/ice-cream-balls@2x.png 2x
+      "
+      src="../images/hero-header/ice-cream-balls.png"
+      alt="ice cream balls"
+      width="225"
+    />
+    <div>
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+        tempor incididunt ut labore et
+      </p>
+      <svg width="40" height="16">
+        <use
+          class="icon-arrow"
+          href="../images/hero-header/hero-header.svg#arrow"
+        ></use>
+      </svg>
     </div>
-  </section>
-  
+    <img
+      srcset="
+        ../images/hero-header/ice-cream-cone.png    1x,
+        ../images/hero-header/ice-cream-cone@2x.png 2x
+      "
+      src="../images/hero-header/ice-cream-cone.png"
+      alt="ice cream cone"
+      width="456"
+    />
+    <ul class="">
+      <li>
+        16
+        <span>cafes</span>
+      </li>
+      <li>
+        23
+        <span>food trucks</span>
+      </li>
+    </ul>
+  </div>
+</section>
