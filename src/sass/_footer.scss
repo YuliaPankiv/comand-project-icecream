@@ -1,0 +1,131 @@
+.site-footer{background-color:  #84A178;
+padding-bottom: 12px;
+padding-top: 474px;
+}
+
+.site-footer__block{display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.site-footer__block--position{
+   
+    justify-content: space-between;
+    align-items: self-start;
+}
+
+.site-footer__titles{display: flex;
+    flex-direction: column;
+    margin-bottom: 60px;
+}
+
+.site-footer__contacts{display: flex;
+    flex-direction: column;
+}
+
+.footer-button{
+    display: inline-block;
+    border-radius: 10px;
+    
+    color: rgba(19, 19, 19, 1);
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 1.28px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    width: 196px;
+    height: 42px;
+    margin: 0;
+    border: 2px solid #F8D24E;
+
+    background: transparent;
+    cursor: pointer;
+  
+//  margin-top: 60px;
+ margin-bottom: 120px;
+}
+
+    .footer-button__block {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
+                align-items: center;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                
+    }
+
+    .footer-button--color{background-color: #F8D24E; margin-right: 16px;}
+
+    .footer-button__text{margin-right: 7px;}
+
+    .site-footer__pretitle{
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 30px;
+        line-height: 1.23;
+        
+        letter-spacing: 0.04em;
+        text-transform: uppercase;
+        
+        color: #FCFCFC;
+        margin-bottom: 14px;
+
+    }
+
+    .site-footer__title{ 
+height: 71px;
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 700;
+font-size: 58px;
+line-height: 1.23;
+letter-spacing: 0.06em;
+text-transform: uppercase;
+
+color: #FCFCFC;
+// margin-bottom: 60px;
+    }
+
+    .foot-social{ 
+        display: flex;
+        list-style: none;}
+
+    .foot-social__contact{
+        height: 30px;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 186%;
+        color:  #131313;
+        margin-top: 40px;
+    }
+
+    .foot-social__mobile{color: #FCFCFC;
+    text-decoration: none;
+    
+    }
+
+    .foot-social__link{margin-right: 30px;}
+    // .foot-social__link:last-child {margin-right: 0}
+    //не работают псевдоклассы не могу отключить правый марджин третьего элемента .foot-social__link:last-child{margin-right: 0px;}
+
+    .site-footer__copyright{
+    display: block;
+height: 20px;
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 700;
+font-size: 12px;
+line-height: 1.83;
+letter-spacing: 0.02em;
+color: #7A7A7A;
+text-align: center;
+border-top: 1px solid #e1e1e1 ;
+
+    }
+
+
