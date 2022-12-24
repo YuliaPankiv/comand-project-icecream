@@ -11,9 +11,8 @@
   @extend .title;
   color: $secondaryColor;
   font-family: 'Seymour One';
-  margin-top: 16px;
-  margin-right: 60px;
-  margin-left: 60px;
+  margin: 12px 60px 32px;
+
   @media screen and (min-width: 1200px) {
     margin-bottom: 72px;
   }
@@ -24,8 +23,7 @@
 
 .about__box {
   display: block;
-  margin-top: 54px;
-  @media screen and (min-width: 1200px) {
+  @media screen and (min-width: 768px) {
     display: flex;
   }
 }
@@ -33,8 +31,9 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  margin: auto;
   width: 279px;
-  height: 278px;
+  height: 279px;
   border-radius: 50%;
   box-shadow: 0 4.48583px 16.8218px rgb(153 114 23 / 25%);
   background: linear-gradient(
@@ -42,6 +41,10 @@
     #d9d9d9 rgba(248, 210, 78, 0.7),
     rgba(248, 210, 78, 0.7)
   );
+  @media screen and (min-width: 768px) {
+    width: 330px;
+    height: 330px;
+  }
   @media screen and (min-width: 1200px) {
     width: 490px;
     height: 490px;
@@ -51,10 +54,14 @@
 .about__content {
   width: 100%;
   margin-top: 40px;
+  @media screen and (min-width: 768px) {
+    width: 334px;
+    margin-left: 38px;
+  }
   @media screen and (min-width: 1200px) {
     display: block;
     width: 463px;
-    margin-left: 109px;
+    margin-left: 110px;
   }
 }
 
@@ -63,7 +70,11 @@
   width: 100%;
   height: auto;
   margin-bottom: 40px;
-  // transform: translateY(20px);
+  transform: translateY(20px);
+  @media screen and (min-width: 768px) {
+    margin-bottom: 0;
+    transform: translateY(30px);
+  }
   @media screen and (min-width: 1200px) {
     transform: translateY(40px);
   }
@@ -75,7 +86,9 @@
   line-height: 176%;
   margin-top: 40px;
   text-align: center;
-
+  @media screen and (min-width: 768px) {
+    text-align: left;
+  }
   @media screen and (min-width: 1200px) {
     margin-bottom: 32px;
     font-family: inherit;
@@ -107,6 +120,14 @@
   @media screen and (min-width: 1200px) {
     margin-top: 54px;
     padding: 12px 35px;
+  }
+  &:hover {
+    background-color: $bottonActiveBackgroundColor;
+  }
+  &:focus {
+    background-color: $bottonActiveBackgroundColor;
+    color: $bottonActiveColor;
+    fill: $bottonActiveColor;
   }
 }
 .about__button-text {
