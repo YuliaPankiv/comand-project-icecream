@@ -133,7 +133,7 @@
     text-align: center;
     letter-spacing: 0.06em;
     text-transform: uppercase;
-    color: #131313;
+    color: $textColor;
 
     @media screen and (min-width: 768px) {
         font-size: 34px;
@@ -147,7 +147,7 @@
 }
 
 .products__pretitle {
-    color: #131313;
+    color: $textColor;
     margin-bottom: 12px;
 
     font-weight: 800;
@@ -155,7 +155,7 @@
     line-height: 1.22;
     text-align: center;
     text-transform: uppercase;
-    color: #131313;
+    color: $textColor;
 
     @media screen and (min-width: 768px) {
         font-size: 22px;
@@ -202,7 +202,7 @@
 }
 
 .ice-cream {
-    background-color: #aec6a5;
+    background-color: $productsFirstBackgroundColor;
 
     &::before {
         content: '';
@@ -263,7 +263,7 @@
 }
 
 .ice-coffee {
-    background-color: #efd478;
+    background-color: $productsSecondBackgroundColor;
 
     &::before {
         content: '';
@@ -324,7 +324,7 @@
 }
 
 .milkshakes {
-    background-color: #d6936d;
+    background-color: $productsThirdBackgrondColor;
 
     &::before {
         content: '';
@@ -392,7 +392,7 @@
     text-align: center;
     text-transform: uppercase;
 
-    color: #131313;
+    color: $textColor;
 
     @media screen and(min-width: 768px) {
         font-size: 22px;
@@ -439,7 +439,7 @@
     &:focus .product-card__icon,
     &:hover .product-card__icon {
         scale: 1.4;
-        fill: #0A8817;
+        fill: $bottonActiveBackgroundColor;
     }
 }
 
@@ -447,7 +447,7 @@
 
     transition:
         scale 250ms cubic-bezier(0.4, 0, 0.2, 1),
-        color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+        fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
     cursor: pointer;
 

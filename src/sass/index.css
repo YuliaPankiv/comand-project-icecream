@@ -488,11 +488,11 @@ ul {
 }
 .product-card__button:focus .product-card__icon, .product-card__button:hover .product-card__icon {
   scale: 1.4;
-  fill: #0A8817;
+  fill: #0a8817;
 }
 
 .product-card__icon {
-  transition: scale 250ms cubic-bezier(0.4, 0, 0.2, 1), color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: scale 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
   cursor: pointer;
 }
 .product-card__icon:hover, .product-card__icon:focus {
