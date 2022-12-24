@@ -231,7 +231,6 @@ ul {
 }
 
 .products__pretitle {
-  color: #131313;
   margin-bottom: 12px;
   font-weight: 800;
   font-size: 18px;
@@ -496,6 +495,6 @@ ul {
   cursor: pointer;
 }
 .product-card__icon:hover, .product-card__icon:focus {
-  fill: #0A8817;
+  fill: #0a8817;
   scale: 1.4;
 }/*# sourceMappingURL=index.css.map */

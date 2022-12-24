@@ -147,7 +147,6 @@
 }
 
 .products__pretitle {
-    color: $textColor;
     margin-bottom: 12px;
 
     font-weight: 800;
@@ -448,12 +447,14 @@
     transition:
         scale 250ms cubic-bezier(0.4, 0, 0.2, 1),
         fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+        // rotate 250ms cubic-bezier(0.4, 0, 0.2, 1) ;
 
     cursor: pointer;
 
     &:hover,
     &:focus {
-        fill: #0A8817;
+        fill: $bottonActiveBackgroundColor;
         scale: 1.4;
+        // rotate: 360deg;
     }
 }
