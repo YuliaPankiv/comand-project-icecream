@@ -2,6 +2,16 @@
     background-color: $primaryColor;
     padding-bottom: 64px;
     padding-top: 50px;
+
+    @media screen and (min-width: 768px){
+        padding-bottom: 204px;
+
+    }
+
+    @media screen and (min-width: 1200px){
+        padding-bottom: 178px;
+
+    }
     }
     
   
@@ -53,6 +63,7 @@
 
     @media screen and (min-width: 768px){
         margin-bottom: 32px;
+        margin-top: 0px;
     }
     @media screen and (min-width: 1200px){
         margin-bottom: 40px;
@@ -67,6 +78,7 @@
 
     @media screen and (min-width: 768px){
         margin-bottom: 32px; 
+        margin-top: 0px;
     }
     @media screen and (min-width: 1200px){
         margin-bottom: 40px;
