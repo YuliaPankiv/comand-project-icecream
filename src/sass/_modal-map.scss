@@ -3,6 +3,10 @@
   height: 199px;
   margin-bottom: 24px;
   // background-image: url(../images/map.png);
+  @media screen and(min-width:768px) {
+    width: 448px;
+    height: 260px;
+  }
 }
 .map__btn {
   // display: block;
