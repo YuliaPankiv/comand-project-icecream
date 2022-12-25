@@ -154,7 +154,8 @@
 .ingradients {
   display: block;
   width: 100vw;
-  height: 100vh;
+  height: 968px;
+  // height: 100vh;
   padding-left: 20px;
   padding-right: 20px;
   background: #fcfcfc;
@@ -191,7 +192,7 @@
   font-family: 'Montserrat';
   font-style: normal;
   font-weight: 400;
-  
+
   font-size: 14px;
   line-height: 1.76;
   letter-spacing: 0.04em;
@@ -202,6 +203,14 @@
   // flex-direction: column;
   justify-content: space-between;
   // gap: 11px;
+}
+.ingradients__img {
+  display: flex;
+  justify-content: center;
+}
+.ingradients__component {
+  display: flex;
+  justify-content: center;
 }
 .ingradients .modal__name,
 .ingradients .modal__tel {
