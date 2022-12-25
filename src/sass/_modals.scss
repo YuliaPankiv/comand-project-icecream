@@ -75,6 +75,22 @@
   font-size: 12px;
   line-height: 1.4;
   color: $textColor;
+
+  @media screen and (min-width: 768px) {
+    width: 368px;
+  }
+}
+.product {
+  height: 991px;
+}
+.product__img {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  @media screen and (min-width: 768px) {
+    flex-direction: row;
+  }
 }
 
 .product .modal__name,
@@ -109,4 +125,6 @@
   right: 12px;
   width: 20px;
   height: 20px;
+  border: transparent;
+  background-color: inherit;
 }
