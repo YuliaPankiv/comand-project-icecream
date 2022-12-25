@@ -70,14 +70,7 @@
   width: 100%;
   height: auto;
   margin-bottom: 40px;
-  transform: translateY(20px);
-  @media screen and (min-width: 768px) {
-    margin-bottom: 0;
-    transform: translateY(30px);
-  }
-  @media screen and (min-width: 1200px) {
-    transform: translateY(40px);
-  }
+  transform: translateY(40px);
 }
 .about__text {
   color: $secondaryColor;
