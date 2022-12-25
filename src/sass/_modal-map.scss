@@ -1,0 +1,28 @@
+.map__box {
+  width: 224px;
+  height: 199px;
+  margin-bottom: 24px;
+  // background-image: url(../images/map.png);
+}
+.map__btn {
+  // display: block;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 114px;
+  height: 42px;
+  margin: 0 auto;
+  padding: 0 auto;
+  background: #f8d24e;
+  border-radius: 10px;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 15px;
+  text-align: center;
+  color: $textColor;
+}
+.modal__map {
+  color: $textColor;
+}
