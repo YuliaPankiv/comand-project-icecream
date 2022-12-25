@@ -1,5 +1,5 @@
 <section class="about">
-  <div class="container">
+  <div class="container about__container">
     <p class="about__pretitle pretitle">tradition and love</p>
     <h2 id="about" class="about__title title">How it's made?</h2>
     <div class="about__box">
@@ -10,14 +10,14 @@
               ./images/about/cow-desktop@1x.png 1x,
               ./images/about/cow-desktop@2x.png 2x
             "
-            media="(min-width: 1200px)"
+            media="(min-width: 769px)"
           />
           <source
             scrset="
             ./images/about/cow-tablet@1x.png 1x,
             ./images/about/cow-tablet@2x.png 2x
           "
-            media="(min-width:768px)"
+            media="(min-width: 481px)"
           />
 
           <source
@@ -25,7 +25,7 @@
               ./images/about/cow-phone@1x.png 1x,
               ./images/about/cow-phone@2x.png 2x
             "
-            media="(max-width:767px)"
+            media="(min-width:320px)"
           />
           <img src="./images/about/cow-phone@1x.png" alt="cow on the grass" />
         </picture>
@@ -51,7 +51,7 @@
         <button class="about__button button" type="button" data-modal-open>
           <span class="about__button-text">Read more</span>
           <svg width="12" height="12">
-            <use href="./images/about/symbols.svg#icon-arrow"></use>
+            <use href="./images/symbols.svg#icon-arrow"></use>
           </svg>
         </button>
       </div>

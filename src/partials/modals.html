@@ -1,0 +1,98 @@
+<div class="backdrop is-hidden" data-modal>
+  <div class="modal product">
+    <form name="modal-product-form" class="modal__form">
+      <h4 class="modal__title">Buy now</h4>
+      <ul class="product__img">
+        <li>
+          <picture>
+            <source
+              media="(min-width: 280px)"
+              srcset="
+                ./images/modals/product/product1_@1x_132.jpg 1x,
+                ./images/modals/product/product1_@2x_264.jpg 2x
+              "
+              type="image/jpg"
+            />
+
+            <img
+              src="./images/modals/product/product1_@1x_132.jpg"
+              alt="Ice Cream"
+            />
+          </picture>
+        </li>
+        <li>
+          <picture>
+            <source
+              media="(min-width: 280px)"
+              srcset="
+                ./images/modals/product/product2_@1x_132.jpg 1x,
+                ./images/modals/product/product2_@2x_264.jpg 2x
+              "
+              type="image/jpg"
+            />
+
+            <img
+              src="./images/modals/product/product2_@1x_132.jpg"
+              alt="Ice Coffee"
+            />
+          </picture>
+        </li>
+        <li>
+          <picture>
+            <source
+              media="(min-width: 280px)"
+              srcset="
+                ./images/modals/product/product3_@1x_132.jpg 1x,
+                ./images/modals/product/product3_@2x_264.jpg 2x
+              "
+              type="image/jpg"
+            />
+
+            <img
+              src="./images/modals/product/product3_@1x_132.jpg"
+              alt="MilkShake"
+            />
+          </picture>
+        </li>
+      </ul>
+
+      <div class="modal__name--wrapped">
+        <label for="product-user-name" name="product-user-name"> </label>
+        <input
+          class="modal__name"
+          type="text"
+          name="product-user-name"
+          id="product-user-name"
+          placeholder="Name"
+        />
+      </div>
+      <div class="modal__tel--wrapped">
+        <label for="product-user-tel" name="product-user-tel"> </label>
+        <input
+          class="modal__tel"
+          type="tel"
+          name="product-user-tel"
+          id="product-user-tel"
+          placeholder="Phone"
+        />
+      </div>
+
+      <div class="modal__comment--wrapped">
+        <label for="product-user-comment" name="product-user-comment"> </label>
+        <textarea
+          class="modal__comment"
+          name="product-user-comment"
+          id="product-user-comment"
+          placeholder="Comment"
+        ></textarea>
+      </div>
+
+      <button class="modal__submit" type="submit">Submit</button>
+    </form>
+    <button class="modal__btn--closed" type="button" data-modal-close>
+      <svg width="12" height="12">
+        <use href="./images/symbols.svg#icon-modal-close-btn"></use>
+      </svg>
+    </button>
+  </div>
+</div>
