@@ -4,20 +4,13 @@
     padding-top: 50px;
     }
     
-    // .advantages-block{
-        
-    // }
-    
+  
     .advantages-list{
     display: block;
-    // @media screen and (max-width: $phone){
-    //     width: 100%;
-    //     margin-left: auto;
-    //     margin-right: auto;
-    // }
+    
 
     
-    @media screen and (min-width: $tablet){
+    @media screen and (min-width: 768px){
         display: flex;
         align-items: flex-end;
     }
@@ -45,10 +38,10 @@
     margin-bottom: 16px;
     // margin-top: 50px;
 
-    @media screen and (min-width: $tablet){
+    @media screen and (min-width: 768px){
         margin-bottom: 32px;
     }
-    @media screen and (min-width: $desktop){
+    @media screen and (min-width: 1200px){
         margin-bottom: 40px;
     }
 }
@@ -58,10 +51,10 @@
     margin-bottom: 16px;
     margin-top: 28px;
 
-    @media screen and (min-width: $tablet){
+    @media screen and (min-width: 768px){
         margin-bottom: 32px;
     }
-    @media screen and (min-width: $desktop){
+    @media screen and (min-width: 1200px){
         margin-bottom: 40px;
     }
 }
@@ -72,10 +65,10 @@
     margin-bottom: 22px;
     margin-top: 22px;
 
-    @media screen and (min-width: $tablet){
+    @media screen and (min-width: 768px){
         margin-bottom: 32px; 
     }
-    @media screen and (min-width: $desktop){
+    @media screen and (min-width: 1200px){
         margin-bottom: 40px;
     }
 }
@@ -91,13 +84,13 @@
     color: $secondaryColor;
     padding: 0px 30px;
 
-    @media screen and (min-width: $tablet){
+    @media screen and (min-width: 768px){
         font-size: 14px;
         line-height: 1.74;
         
 
     }
-    @media screen and (min-width: $desktop){
+    @media screen and (min-width: 1200px){
 
         font-size: 16px;
         line-height: 1.76;
@@ -118,12 +111,12 @@
         color: $secondaryColor;
         margin-bottom: 16px;
     
-        @media screen and (min-width: $tablet){
+        @media screen and (min-width: 768px){
             font-size: 48px;
         line-height: 0.82;
         }
 
-        @media screen and (min-width: $desktop){
+        @media screen and (min-width: 1200px){
 
             font-size: 58px;
             
