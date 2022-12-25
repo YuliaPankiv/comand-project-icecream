@@ -1,8 +1,8 @@
-.site-footer{background-color:  #84A178;
+.site-footer{background-color: $primaryColor;
 
 
 @media screen and (max-width: 767px) {
-    padding-bottom: 20px;
+    padding-bottom: 60px;
     padding-top: 20px;
     }
 
@@ -15,7 +15,7 @@
 
 @media screen and (min-width: 1200px) {
 padding-bottom: 12px;
-padding-top: 60px;
+padding-top: 120px;
 }
 
 }
@@ -65,13 +65,14 @@ padding-top: 60px;
 
 .site-footer__contacts{display: flex;
     flex-direction: column;
+
 }
 
 .footer-button{
     display: inline-block;
     border-radius: 10px;
     
-    color: rgba(19, 19, 19, 1);
+    color:$textColor;
     font-weight: 600;
     font-size: 14px;
     line-height: 1.28px;
@@ -80,7 +81,7 @@ padding-top: 60px;
     width: 196px;
     height: 42px;
     margin: 0;
-    border: 2px solid #F8D24E;
+    border: 2px solid $bottonDefoultColor;
 
     background: transparent;
     cursor: pointer;
@@ -107,7 +108,7 @@ padding-top: 60px;
     }
 
     .footer-button--color{
-        background-color: #F8D24E; 
+        background-color: $bottonDefoultColor; 
 
         @media screen and (max-width:767px) {
             margin-bottom: 16px;
@@ -130,7 +131,7 @@ padding-top: 60px;
         letter-spacing: 0.04em;
         text-transform: uppercase;
         
-        color: #FCFCFC;
+        color: $secondaryColor;
 
         
         @media screen and (max-width:767px) {
@@ -168,7 +169,7 @@ padding-top: 60px;
 
 letter-spacing: 0.06em;
 text-transform: uppercase;
-color: #FCFCFC;
+color: $secondaryColor;
 font-weight: 700;
 
 @media screen and (max-width:767px) {
@@ -199,8 +200,8 @@ min-width: 494px;
     .foot-social__contact{
        
         font-weight: 700;
-        color:  #131313;
-        outline: 1px solid orange;
+        color:  $textColor;
+        
                        
         @media screen and (max-width:767px) {
             font-size: 12px;
@@ -220,7 +221,7 @@ min-width: 494px;
 
     }
 
-    .foot-social__mobile{color: #FCFCFC;
+    .foot-social__mobile{color: $secondaryColor;
     text-decoration: none;
     
     }
@@ -228,21 +229,14 @@ min-width: 494px;
     .foot-social__link{
         width: 100%;
         height: 100%;
-        outline: 1px solid orange;
         
         
-        // .foot-social__link:last-child{margin-right: 0px;}
     }
 
-    // .foot-social__item{margin-right: 30px;}
-    // .foot-social__item:last-child{margin-right: 0px;}
 
-    .site-footer__copyright{
-    display: block;
-
+.site-footer__copyright{
+display: block;
 font-family: 'Montserrat';
-font-style: normal;
-
 letter-spacing: 0.02em;
 color: #7A7A7A;
 text-align: center;
@@ -265,7 +259,6 @@ font-weight: 700;
     font-size: 12px;
     line-height: 1.83;
 }
-
 
 
 
