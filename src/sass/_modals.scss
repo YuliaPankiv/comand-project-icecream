@@ -1,21 +1,21 @@
-.modal {
-  & p,
-  & h4,
-  & li,
-  & ul,
-  & a {
-    margin: 0;
-    padding: 0;
-  }
-}
-.modal {
-  & a {
-    text-decoration: none;
-  }
-  & ul {
-    list-style: none;
-  }
-}
+// .modal {
+//   & p,
+//   & h4,
+//   & li,
+//   & ul,
+//   & a {
+//     margin: 0;
+//     padding: 0;
+//   }
+// }
+// .modal {
+//   & a {
+//     text-decoration: none;
+//   }
+//   & ul {
+//     list-style: none;
+//   }
+// }
 
 .backdrop {
   position: relative;
@@ -34,7 +34,7 @@
 .modal__title {
   margin-bottom: 20px;
   padding-top: 28px;
-  font-family: 'Seymour One';
+  font-family: $titleFontFamily;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -43,7 +43,7 @@
   // display: flex;
   // align-items: center;
   text-align: center;
-  color: #131313;
+  color: $textColor;
 }
 
 .modal__text {
@@ -53,7 +53,7 @@
   font-weight: 400;
   font-size: 14px;
   line-height: 1.4;
-  color: #131313;
+  color: $textColor;
 }
 
 .modal__name,
@@ -74,7 +74,7 @@
   font-weight: 400;
   font-size: 12px;
   line-height: 1.4;
-  color: #131313;
+  color: $textColor;
 }
 .franchise .modal__name,
 .franchise .modal__tel,
@@ -107,7 +107,7 @@
   // display: flex;
   // align-items: center;
   text-align: center;
-  color: #131313;
+  color: $textColor;
 }
 
 .map__box {
@@ -146,10 +146,10 @@
   font-size: 12px;
   line-height: 15px;
   text-align: center;
-  color: #131313;
+  color: $textColor;
 }
 .modal__map {
-  color: #131313;
+  color: $textColor;
 }
 .ingradients {
   display: block;
@@ -164,18 +164,18 @@
   display: flex;
   align-items: center;
   text-align: center;
-  font-family: 'Seymour One';
+  font-family: $titleFontFamily;
   font-style: normal;
   font-weight: 400;
   font-size: 20px;
   line-height: 1.4;
-  color: #131313;
+  color: $textColor;
 }
 .ingradients__titlelist {
   display: flex;
   align-items: center;
   text-align: center;
-  color: #131313;
+  color: $textColor;
   font-family: 'Montserrat';
   font-style: normal;
   font-weight: 500;
@@ -191,6 +191,7 @@
   font-family: 'Montserrat';
   font-style: normal;
   font-weight: 400;
+  
   font-size: 14px;
   line-height: 1.76;
   letter-spacing: 0.04em;
