@@ -16,13 +16,14 @@
 .about__title {
   @extend .title;
   color: $secondaryColor;
-  margin: 12px 60px 32px;
+  margin-top: 12px;
+  margin-bottom: 32px;
   @media screen and (max-width: 480px) {
-    width: 210px;
-    margin-top: 32px;
+    width: 200px;
+    margin-bottom: 72px;
   }
   @media screen and (min-width: 768px) {
-    margin-bottom: 72px;
+    margin-bottom: 82px;
   }
   @media screen and (min-width: 1200px) {
     margin-bottom: 82px;
