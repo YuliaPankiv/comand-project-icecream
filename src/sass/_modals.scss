@@ -78,6 +78,14 @@
 
   @media screen and (min-width: 768px) {
     width: 368px;
+    display: flex;
+    align-items: center;
+  }
+}
+.modal__name--wrapped {
+  @media screen and (min-width: 768px) {
+    display: flex;
+    align-items: center;
   }
 }
 .product {
