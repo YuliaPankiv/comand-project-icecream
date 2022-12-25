@@ -1,0 +1,75 @@
+.ingradients {
+  display: block;
+  width: 100vw;
+  height: 968px;
+  // height: 100vh;
+  padding-left: 20px;
+  padding-right: 20px;
+  background: #fcfcfc;
+  border-radius: 10px;
+}
+.ingradients__title {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  font-family: $titleFontFamily;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 1.4;
+  color: $textColor;
+}
+.ingradients__titlelist {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: $textColor;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.4;
+}
+
+.ingradients__text {
+  //  display: flex;
+  // align-items: center;
+  // text-align: center;
+
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+
+  font-size: 14px;
+  line-height: 1.76;
+  letter-spacing: 0.04em;
+  color: #131313;
+}
+.ingradients__box {
+  display: flex;
+  // flex-direction: column;
+  justify-content: space-between;
+  // gap: 11px;
+}
+.ingradients__img {
+  display: flex;
+  justify-content: center;
+}
+.ingradients__component {
+  display: flex;
+  justify-content: center;
+}
+.ingradients .modal__name,
+.ingradients .modal__tel {
+  margin-bottom: 16px;
+}
+.ingradients .modal__comment {
+  margin-bottom: 24px;
+}
+.ingradients__box--wrapped {
+  margin-bottom: 40px;
+}
+.ingradients__field {
+  display: flex;
+  justify-content: space-around;
+}
