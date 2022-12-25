@@ -509,16 +509,16 @@
       (min-resolution: 2dppx) {
       background-image: url('../images/heroheader/dots-mob@2x.png');
     }
-  }
-  @media screen and (min-width: 769px) {
-    background-image: url('../images/heroheader/dots.png');
-    height: 384px;
-    max-width: 1200px;
+    @media screen and (min-width: 769px) {
+      background-image: url('../images/heroheader/dots.png');
+      height: 384px;
+      max-width: 1200px;
 
-    @media (min-device-pixel-ratio: 2),
-      (min-resolution: 192dpi),
-      (min-resolution: 2dppx) {
-      background-image: url('../images/heroheader/dots@2x.png');
+      @media (min-device-pixel-ratio: 2),
+        (min-resolution: 192dpi),
+        (min-resolution: 2dppx) {
+        background-image: url('../images/heroheader/dots@2x.png');
+      }
     }
   }
 }
