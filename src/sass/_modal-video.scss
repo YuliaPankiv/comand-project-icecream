@@ -4,10 +4,24 @@
   align-items: center;
   min-width: 224px;
   height: 199px;
-  //   background-color: #131313;
   border-radius: 10px;
   margin-bottom: 20px;
   margin-right: 0;
-  // padding-left: auto;
-  // padding-right: auto;
+  // padding-left: 28px;
+  // padding-right: 28px;
+  @media screen and (max-width: 479px) {
+    max-width: 224px;
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+  @media screen and (min-width: 768px) {
+    min-width: 448px;
+    height: 205px;
+    // padding-left: 60px;
+    // padding-right: 60px;
+  }
+}
+.modal__video--wrapped {
+  display: flex;
+  justify-content: center;
 }
