@@ -245,11 +245,20 @@ font-weight: 700;
 @media screen and (max-width:767px) {
     font-size: 14px;
     line-height: 1.5;
-   
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    flex-direction: column;
+    padding-top: 20px;
 }
 @media screen and (min-width:768px) {
     font-size: 14px;
     line-height: 1.86;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    flex-direction: inherit;
+    padding-top: 12px;
 }
 @media screen and (min-width:1200px) {
     font-size: 12px;
@@ -261,4 +270,9 @@ font-weight: 700;
 
     }
 
+.site-footer__copyright-text{
 
+    @media screen and (min-width:768px) {
+        margin-left: 5px;
+    }
+}
