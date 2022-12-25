@@ -16,6 +16,7 @@
 .about__title {
   @extend .title;
   color: $secondaryColor;
+  font-family: Seymour One, sans-serif;
   margin-top: 12px;
   margin-bottom: 32px;
   @media screen and (max-width: 480px) {
