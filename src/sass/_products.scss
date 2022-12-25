@@ -116,15 +116,15 @@
 .products__title {
     margin-bottom: 148px;
 
-    @media screen and(min-width: 768px) {
-        margin-bottom: 200px;
-    }
+    // @media screen and(min-width: 768px) {
+    //     margin-bottom: 200px;
+    // }
 
-    @media screen and(min-width: 1200px) {
-        margin-bottom: 303px;
-    }
+    // @media screen and(min-width: 1200px) {
+    //     margin-bottom: 303px;
+    // }
 
-    font-family: $titleFontFamily;
+    font-family: 'Seymour One', sans-serif;
     //  margin-bottom: 12px;
     font-weight: 400;
     font-size: 30px;
@@ -135,11 +135,13 @@
     color: $textColor;
 
     @media screen and (min-width: 768px) {
+        margin-bottom: 200px;
         font-size: 34px;
         line-height: 1.26;
     }
 
     @media screen and (min-width: 1200px) {
+        margin-bottom: 303px;
         font-size: 36px;
         line-height: 1.25;
     }
