@@ -1,4 +1,4 @@
-<div class="backdrop is-hidden" data-modal>
+<div class="backdrop" data-modal>
   <div class="modal franchise">
     <form name="modal-franchise-form" class="modal__form">
       <h4 class="modal__title">
@@ -17,6 +17,7 @@
         <input
           class="modal__name"
           type="text"
+          pattern="[a-z]"
           name="franchise-user-name"
           id="franchise-user-name"
           placeholder="Name"
@@ -27,6 +28,7 @@
         <input
           class="modal__tel"
           type="tel"
+          pattern="[0-9]"
           name="franchise-user-tel"
           id="franchise-user-tel"
           placeholder="Phone"
