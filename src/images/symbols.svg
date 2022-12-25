@@ -1,5 +1,5 @@
 
-<svg aria-hidden="true" style="position:absolute;width:0;height:0;overflow:hidden" xmlns="http://www.w3.org/2000/svg">
+<!-- <svg aria-hidden="true" style="position:absolute;width:0;height:0;overflow:hidden" xmlns="http://www.w3.org/2000/svg">
   <defs>
     <symbol id="arrow" viewBox="0 0 82 32">
       <path
@@ -7,7 +7,7 @@
       </path>
     </symbol>
   </defs>
-</svg>
+</svg> -->
 
 <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" style="position:absolute;width:0;height:0;overflow:hidden"><defs>
 <symbol id="icon-arrow" viewBox="0 0 22 32">
