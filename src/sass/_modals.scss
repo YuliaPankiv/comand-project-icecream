@@ -15,3 +15,26 @@
 .product .modal__comment {
   margin-bottom: 26px;
 }
+
+.checkbox {
+  position: absolute;
+  appearance: none;
+}
+// .checkbox__icon {
+//    display: inline-block;
+//    width: 16px;
+//    height: 15px;
+//   border: 10px solid #bc0b0b;
+//   border-radius: 4px;
+// }
+
+.checkbox:checked + .checkbox__icon {
+  border: 5px solid tomato;
+}
+.product_box {
+  // display: flex;
+  // justify-content: center;
+  // align-items: center;
+  width: 65px;
+  height: 90px;
+}

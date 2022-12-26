@@ -1,37 +1,79 @@
 .ingradients {
-  display: block;
-  width: 100vw;
-  height: 968px;
+  // display: block;
+  
+  
   // height: 100vh;
   padding-left: 20px;
   padding-right: 20px;
+  padding-top: 28px;
   background: #fcfcfc;
   border-radius: 10px;
+
+// временно ширину и высоту выставил фиксированно
+
+@media screen and (max-width:767px) {
+  height: 968px;
+  width: 280px;
+}
+
+@media screen and (min-width:768px) {
+  height: 996px;
+  width: 568px;
+}
+
+
+
+
+
 }
 .ingradients__title {
   display: flex;
   align-items: center;
   text-align: center;
-  padding-top: 28px;
   font-family: $titleFontFamily;
   font-style: normal;
   font-weight: 400;
   font-size: 20px;
   line-height: 1.4;
   color: $textColor;
+  justify-content: center;
+  @media screen and (max-width:767px) {
+  flex-direction: column;
+  }
+  
+  @media screen and (min-width:768px) {gap: 10px;}
+
+
 }
+
+
+
+
+
 .ingradients__titlelist {
   display: flex;
   justify-content: center;
   align-items: center;
   text-align: center;
-  margin-bottom: 24px;
+  // margin-bottom: 24px;
   color: $textColor;
   font-family: 'Montserrat';
   font-style: normal;
   font-weight: 500;
   font-size: 20px;
   line-height: 1.4;
+  @media screen and (max-width:767px) {
+    margin-top: 40px;
+
+  }
+  
+  @media screen and (min-width:768px) {
+    margin-top: 48px;
+  }
+
+
+
+
 }
 
 .ingradients__text {
@@ -57,23 +99,78 @@
 .ingradients__img {
   display: flex;
   justify-content: center;
+  
+  @media screen and (max-width:767px) {
+    margin-top: 20px;
+
+  }
+  
+  @media screen and (min-width:768px) {
+    margin-top: 24px;
+  }
+
 }
 .ingradients__component {
   display: flex;
   justify-content: center;
-  margin-bottom: 40px;
+  margin-top: 24px ;
+  
+
+  
 }
 .ingradients .modal__name,
 .ingradients .modal__tel {
   margin-bottom: 16px;
 }
 .ingradients .modal__comment {
-  margin-bottom: 24px;
+
+
+  @media screen and (max-width:767px) {
+    margin-bottom: 24px;
+
+  }
+  
+  @media screen and (min-width:768px) {
+    margin-bottom: 32px;
+  }
+
+
+
+
+  
+
+
 }
 .ingradients__box--wrapped {
-  margin-bottom: 40px;
+  display: flex;
+  flex-direction: column;
+    gap: 11px;
+    margin-top: 24px;
+    @media screen and (max-width:767px) {
+      margin-bottom: 40px;
+    }
+    
+    @media screen and (min-width:768px) {
+      margin-bottom: 48px;
+
+    }
+
+
+
+
+   
+  
+  
+
 }
 .ingradients__field {
   display: flex;
   justify-content: space-around;
+}
+
+
+.ingradients-user__block{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
 }

@@ -1,7 +1,7 @@
 <div class="backdrop is-hidden" data-modal>
   <div class="modal ingradients">
     <form name="modal-ingradients-form" class="modal__form">
-      <h4 class="ingradients__title">Chololate icecream</h4>
+      <h4 class="ingradients__title">Chololate<p>icecream</p></h4>
       <div class="ingradients__img">
         <img
           scrset="./images/modals/ingredients/mob_ingr1_@1x_132.jpg 1x, ./images/modals/ingredients/mob_ingr1_@2x_264.jpg 2x"
@@ -12,7 +12,12 @@
       </div>
       <ul class="ingradients__component">
         <li>
-          <picture>
+          <div class="product_box">
+            <svg>
+              <use href="./images/symbols.svg#icon-tab-product41"></use>
+            </svg>
+          </div>
+          <!-- <picture>
             <source
               media="(min-width: 768px)"
               srcset="
@@ -33,10 +38,15 @@
               src="./images/modals/ingredients/mob_comp1_@1x_53.jpg"
               alt="320 Kcal"
             />
-          </picture>
+          </picture> -->
         </li>
         <li>
-          <picture>
+          <div class="product_box">
+            <svg>
+              <use href="./images/symbols.svg#icon-tab-product2"></use>
+            </svg>
+          </div>
+          <!-- <picture>
             <source
               media="(min-width: 768px)"
               srcset="
@@ -57,10 +67,15 @@
               src="./images/modals/ingredients/mob_comp2_@1x_53.jpg"
               alt="4g Proteins"
             />
-          </picture>
+          </picture> -->
         </li>
         <li>
-          <picture>
+          <div class="product_box">
+            <svg>
+              <use href="./images/symbols.svg#icon-tab-product3"></use>
+            </svg>
+          </div>
+          <!-- <picture>
             <source
               media="(min-width: 768px)"
               srcset="
@@ -81,10 +96,15 @@
               src="./images/modals/ingredients/mob_comp3_@1x_53.jpg"
               alt="8.2g Fats"
             />
-          </picture>
+          </picture> -->
         </li>
         <li>
-          <picture>
+          <div class="product_box">
+            <svg>
+              <use href="./images/symbols.svg#icon-tab-product4"></use>
+            </svg>
+          </div>
+          <!-- <picture>
             <source
               media="(min-width: 768px)"
               srcset="
@@ -105,7 +125,7 @@
               src="./images/modals/ingredients/mob_comp4_@1x_53.jpg"
               alt="40.4g Carbs"
             />
-          </picture>
+          </picture> -->
         </li>
       </ul>
 
@@ -136,6 +156,10 @@
           <p class="ingradients__text">10g</p>
         </li>
       </ul>
+
+
+      <div class="ingradients-user__block">
+
 
       <div>
         <label for="ingradients-user-name" name="ingradients-user-name">
@@ -169,6 +193,8 @@
           placeholder="Comment"
         ></textarea>
       </div>
+
+    </div>
 
       <button class="modal__submit" type="submit">Submit</button>
     </form>

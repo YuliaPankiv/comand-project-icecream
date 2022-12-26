@@ -1,10 +1,13 @@
-<div class="backdrop is-hidden" data-modal>
+<div class="backdrop is-hidden" data-modal="0">
   <div class="modal product">
     <form name="modal-product-form" class="modal__form">
       <h4 class="modal__title">Buy now</h4>
       <ul class="product__img">
         <li>
-          <picture>
+          <label  for="product-icecream" name="product-icecream">
+          <input class="checkbox" type="checkbox" name="product-icecream" id="product-icecream">
+                    
+           <picture class="checkbox__icon">
             <source
               media="(min-width: 280px)"
               srcset="
@@ -13,14 +16,17 @@
               "
               type="image/jpg"
             />
-
             <img
               src="./images/modals/product/product1_@1x_132.jpg"
               alt="Ice Cream"
             />
-          </picture>
+          </picture> 
         </li>
+        
         <li>
+          <label  for="product-coffee" name="product-coffee">
+          <input class="checkbox" type="checkbox" name="product-coffee" id="product-coffee">
+                 
           <picture>
             <source
               media="(min-width: 280px)"
@@ -38,6 +44,9 @@
           </picture>
         </li>
         <li>
+          <label  for="product-milkshake" name="product-milkshake">
+          <input class="checkbox" type="checkbox" name="product-milkshake" id="product-milkshake">
+                  
           <picture>
             <source
               media="(min-width: 280px)"
@@ -54,6 +63,7 @@
             />
           </picture>
         </li>
+        
       </ul>
 
       <div class="modal__name--wrapped">
@@ -89,7 +99,7 @@
 
       <button class="modal__submit" type="submit">Submit</button>
     </form>
-    <button class="modal__btn--closed" type="button" data-modal-close>
+    <button class="modal__btn--closed" type="button" data-modal-close="0">
       <svg width="12" height="12">
         <use href="./images/symbols.svg#icon-modal-close-btn"></use>
       </svg>

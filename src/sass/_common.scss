@@ -50,7 +50,6 @@ body {
   @media screen and (min-width: 1200px) {
     background-image: url('../images/galleryImg/backgroud_desktop.png');
   }
-
 }
 
 .container {
@@ -187,6 +186,7 @@ ul {
 .img {
   display: block;
   max-width: 100%;
+  height: auto;
   padding-left: 0;
   padding-right: 0;
 }
