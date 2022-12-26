@@ -1,15 +1,15 @@
-.section {
-  width: 100%;
-  background-image: url('../images/galleryImg/backgroud_mobile.png');
-  background-size: cover;
-  background-position: center;
-  @media screen and (min-width: 768px) {
-    background-image: url('../images/galleryImg/background_tablet.png');
-  }
-  @media screen and (min-width: 1200px) {
-    background-image: url('../images/galleryImg/backgroud_desktop.png');
-  }
-}
+// .section {
+//   width: 100%;
+//   background-image: url('../images/galleryImg/backgroud_mobile.png');
+//   background-size: cover;
+//   background-position: center;
+//   @media screen and (min-width: 768px) {
+//     background-image: url('../images/galleryImg/background_tablet.png');
+//   }
+//   @media screen and (min-width: 1200px) {
+//     background-image: url('../images/galleryImg/backgroud_desktop.png');
+//   }
+// }
 .slideshow-container {
   text-align: center;
   transform: translateY(-32px);
