@@ -2,6 +2,7 @@
   list-style: none;
 }
 .customer {
+  margin: auto;
   background-image: url(./../images/customer/Backgroud_mobile.jpg);
   background-position: center;
   background-size: cover;
@@ -28,11 +29,6 @@
       background-image: url(./../images/customer/Backgroud_desktop2x.jpg);
     }
   }
-}
-.customer__slider {
-  display: flex;
-  text-align: center;
-  justify-content: center;
   padding-bottom: 417px;
   @media screen and (min-width: 768px) {
     padding-bottom: 423px;
@@ -40,7 +36,11 @@
     @media screen and (min-width: 1200px) {
       padding-bottom: 272px;
       }
-
+}
+.customer__slider {
+  display: flex;
+  text-align: center;
+  justify-content: center;
 }
 
 .customer__picture {
@@ -50,6 +50,7 @@
 .customer-reviews {
   width: 280px;
   height: 256px;
+  margin: auto;
   @media screen and (min-width: 768px) {
     width: 705px;
     height: 138px;
@@ -88,4 +89,5 @@
   text-align: center;
   color: #131313;
   padding-top: 32px;
+  padding-bottom: 32px;
 }
