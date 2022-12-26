@@ -1,90 +1,84 @@
 .list {
-    list-style: none;
+  list-style: none;
+}
+.customer {
+  background-image: url(./../images/customer/Backgroud_mobile.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  @media (min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+    background-image: url(./../images/customer/Backgroud_mobile2x.jpg);
   }
-  .customer {
-      background-image: 
-      url(./../images/customer/Backgroud_mobile.jpg);
-      background-position: center;
-      background-size: cover;
-      background-repeat: no-repeat;
-      @media (min-device-pixel-ratio: 2),
-        (min-resolution: 192dpi),
-        (min-resolution: 2dppx) {
-        background-image: 
-          url(./../images/customer/Backgroud_mobile2x.jpg);
-      }
-      @media screen and (min-width: 480px) {
-        background-image: 
-          url(./../images/customer/Background_tablet.jpg);
-        @media (min-device-pixel-ratio: 2),
-          (min-resolution: 192dpi),
-          (min-resolution: 2dppx) {
-          background-image: 
-            url(./../images/customer/Background_tablet2x.jpg);
-        }
-      }
-      @media screen and (min-width: 768px) {
-        max-width: 1600px;
-        background-image: 
-          url(./../images/customer/Backgroud_desktop.jpg);
-        @media (min-device-pixel-ratio: 2),
-          (min-resolution: 192dpi),
-          (min-resolution: 2dppx) {
-          background-image: 
-            url(./../images/customer/Backgroud_desktop2x.jpg);
-        }
-      }
+  @media screen and (min-width: 480px) {
+    background-image: url(./../images/customer/Background_tablet.jpg);
+    @media (min-device-pixel-ratio: 2),
+      (min-resolution: 192dpi),
+      (min-resolution: 2dppx) {
+      background-image: url(./../images/customer/Background_tablet2x.jpg);
     }
-    .customer__slider{
-      display: flex;
-      text-align: center;
-      justify-content: center;
-      padding-top: 464px;
-    }
-  
-  .customer__picture {
-    border-radius: 50%;
-    display: inline;
   }
-  .customer-reviews {
+  @media screen and (min-width: 768px) {
+    max-width: 1600px;
+    background-image: url(./../images/customer/Backgroud_desktop.jpg);
+    @media (min-device-pixel-ratio: 2),
+      (min-resolution: 192dpi),
+      (min-resolution: 2dppx) {
+      background-image: url(./../images/customer/Backgroud_desktop2x.jpg);
+    }
+  }
+}
+.customer__slider {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  padding-top: 464px;
+}
+
+.customer__picture {
+  border-radius: 50%;
+  display: inline;
+}
+.customer-reviews {
   width: 280px;
   height: 256px;
-  @media screen and(min-width: 468px) {
-  width: 705px;
-  height: 138px;
+  @media screen and (min-width: 468px) {
+    width: 705px;
+    height: 138px;
   }
-  @media screen and(min-width: 1200px) {
+  @media screen and (min-width: 1200px) {
     width: 968px;
-    }
-  background: #84A178;
+  }
+  background: #84a178;
   border-radius: 10px;
   margin-top: 32px;
+}
+.customer__text {
+  padding: 35px 39px;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 255%;
+  text-align: center;
+  color: #fcfcfc;
+  @media screen and (min-width: 468px) {
+    padding: 28px 80px 29px;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 186%;
   }
-  .customer__text {
-      padding: 35px 39px;
-      font-family: 'Montserrat';
-      font-style: normal;
-      font-weight: 400;
-      font-size: 12px;
-      line-height: 255%;
-      text-align: center;
-      color: #FCFCFC;
-      @media screen and(min-width: 468px) {
-        padding: 28px 80px 29px;
-        font-weight: 500;
-        font-size: 14px;
-        line-height: 186%;
-        }
-      @media screen and(min-width: 1200px) {
-          padding: 43px 109px;
-          font-size: 16px;
-          }
+  @media screen and (min-width: 1200px) {
+    padding: 43px 109px;
+    font-size: 16px;
   }
-  .customer__name {
+}
+.customer__name {
   font-weight: 500;
   font-size: 20px;
   line-height: 186%;
   text-align: center;
   color: #131313;
   padding-top: 32px;
-  }
+}
