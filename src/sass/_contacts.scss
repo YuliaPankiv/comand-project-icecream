@@ -3,7 +3,6 @@
   width: 100%;
 }
 
-
 ul {
   padding: 0;
   margin: 0;
@@ -22,12 +21,10 @@ a {
   padding: 0;
   @media screen and (max-width: 479px) {
     width: 280px;
-
     padding: 40px 32px 24px 32px;
   }
   @media screen and (min-width: 480px) {
     width: 280px;
-
     padding: 40px 32px 24px 32px;
   }
   @media screen and (max-width: 767px) {
