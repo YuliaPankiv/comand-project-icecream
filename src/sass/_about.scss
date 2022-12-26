@@ -95,6 +95,21 @@
   margin-bottom: 40px;
   transform: translateY(40px);
 }
+
+.about-img {
+  border-radius: solid 8px;
+  @media screen and (min-width: 320px) {
+    width: 279px;
+  }
+
+  @media screen and (min-width: 768px) {
+    width: 330px;
+  }
+
+  @media screen and (min-width: 1200px) {
+    width: 490px;
+  }
+}
 .about__text {
   color: $secondaryColor;
   font-size: 12px;
