@@ -6,3 +6,7 @@
 .franchise .modal__comment {
   margin-bottom: 26px;
 }
+input:invalid {
+  background-color: red;
+  border: green solid 3px;
+}
