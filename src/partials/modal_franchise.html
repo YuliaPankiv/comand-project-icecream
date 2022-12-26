@@ -1,4 +1,4 @@
-<div class="backdrop is-hidden" data-modal>
+<div class="backdrop" data-modal>
   <div class="modal franchise">
     <form name="modal-franchise-form" class="modal__form">
       <h4 class="modal__title">
@@ -12,27 +12,29 @@
         additional information. We appreciate your patience.
       </p>
 
-      <div>
+      <div class="modal__name--wrapped">
         <label for="franchise-user-name" name="franchise-user-name"> </label>
         <input
           class="modal__name"
           type="text"
+          pattern="[a-z]"
           name="franchise-user-name"
           id="franchise-user-name"
           placeholder="Name"
         />
       </div>
-      <div>
+      <div class="modal__tel--wrapped">
         <label for="franchise-user-tel" name="franchise-user-tel"> </label>
         <input
           class="modal__tel"
           type="tel"
+          pattern="[0-9]"
           name="franchise-user-tel"
           id="franchise-user-tel"
           placeholder="Phone"
         />
       </div>
-      <div>
+      <div class="modal__email--wrapped">
         <label for="franchise-user-email" name="franchise-user-email"> </label>
         <input
           class="modal__email"
@@ -42,7 +44,7 @@
           placeholder="Email"
         />
       </div>
-      <div>
+      <div class="modal__comment--wrapped">
         <label for="franchise-user-comment" name="franchise-user-comment">
         </label>
         <textarea

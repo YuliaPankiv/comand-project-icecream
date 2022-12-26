@@ -2,27 +2,30 @@
   <div class="modal video">
     <form name="modal-video-form" class="modal__form">
       <h4 class="modal__title">How it’s made?</h4>
-      <iframe
-        class="modal__video"
-        width="224"
-        height="199"
-        src="https://www.youtube.com/embed/8WEMZ86Eho8"
-        title="YouTube video player"
-        frameborder="0"
-        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-        allowfullscreen
-      ></iframe>
+      <div class="modal__video--wrapped">
+        <iframe
+          class="modal__video"
+          width="224"
+          height="199"
+          src="https://www.youtube.com/embed/8WEMZ86Eho8"
+          title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen
+        ></iframe>
+      </div>
+
       <p class="modal__text">
         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
         tempor incididunt ut labore et Lorem ipsum dolor sit amet, consectetur
         adipiscing elit, sed do eiusmod tempor incididunt ut labore et
       </p>
+      <button class="modal__btn--closed" type="button" data-modal-close>
+        <svg width="12" height="12">
+          <use href="./images/symbols.svg#icon-modal-close-btn"></use>
+        </svg>
+      </button>
     </form>
-    <button class="modal__btn--closed" type="button" data-modal-close>
-      <svg width="12" height="12">
-        <use href="./images/symbols.svg#icon-modal-close-btn"></use>
-      </svg>
-    </button>
   </div>
 </div>
-<script src="./js/modals.js"></script>
+<!-- <script src="./js/modals.js"></script>  -->
