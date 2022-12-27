@@ -1,7 +1,10 @@
-<div class="backdrop is-hidden" data-modal>
+<div class="backdrop is-hidden">
   <div class="modal ingradients">
     <form name="modal-ingradients-form" class="modal__form">
-      <h4 class="ingradients__title">Chololate<p>icecream</p></h4>
+      <h4 class="ingradients__title">
+        Chololate
+        <p>icecream</p>
+      </h4>
       <div class="ingradients__img">
         <img
           scrset="./images/modals/ingredients/mob_ingr1_@1x_132.jpg 1x, ./images/modals/ingredients/mob_ingr1_@2x_264.jpg 2x"
@@ -11,12 +14,10 @@
         />
       </div>
       <ul class="ingradients__component">
-        <li>
-          <div class="product_box">
-            <svg>
-              <use href="./images/symbols.svg#icon-tab-product41"></use>
-            </svg>
-          </div>
+        <li class="product_box">
+          <div class="product_box--upper">320</div>
+          <span class="product_box--lower">Kcal</span>
+
           <!-- <picture>
             <source
               media="(min-width: 768px)"
@@ -40,12 +41,9 @@
             />
           </picture> -->
         </li>
-        <li>
-          <div class="product_box">
-            <svg>
-              <use href="./images/symbols.svg#icon-tab-product2"></use>
-            </svg>
-          </div>
+        <li class="product_box">
+          <div class="product_box--upper">4g</div>
+          <span class="product_box--lower">Protein</span>
           <!-- <picture>
             <source
               media="(min-width: 768px)"
@@ -69,12 +67,10 @@
             />
           </picture> -->
         </li>
-        <li>
-          <div class="product_box">
-            <svg>
-              <use href="./images/symbols.svg#icon-tab-product3"></use>
-            </svg>
-          </div>
+        <li class="product_box">
+          <div class="product_box--upper">8.2g</div>
+          <span class="product_box--lower">Fats</span>
+
           <!-- <picture>
             <source
               media="(min-width: 768px)"
@@ -98,12 +94,10 @@
             />
           </picture> -->
         </li>
-        <li>
-          <div class="product_box">
-            <svg>
-              <use href="./images/symbols.svg#icon-tab-product4"></use>
-            </svg>
-          </div>
+        <li class="product_box">
+          <div class="product_box--upper">40.4g</div>
+          <span class="product_box--lower">Carbs</span>
+
           <!-- <picture>
             <source
               media="(min-width: 768px)"
@@ -157,48 +151,47 @@
         </li>
       </ul>
 
-
       <div class="ingradients-user__block">
+        <div class="modal__name--wrapped">
+          <label for="ingradients-user-name" name="ingradients-user-name">
+          </label>
+          <input
+            class="modal__name"
+            type="text"
+            pattern="[a-z]"
+            name="ingradients-user-name"
+            id="ingradients-user-name"
+            placeholder="Name"
+          />
+        </div>
+        <div class="modal__tel--wrapped">
+          <label for="ingradients-user-tel" name="ingradients-user-tel">
+          </label>
+          <input
+            class="modal__tel"
+            type="tel"
+            pattern="[0-9]"
+            name="ingradients-user-tel"
+            id="ingradients-user-tel"
+            placeholder="Phone"
+          />
+        </div>
 
-
-      <div>
-        <label for="ingradients-user-name" name="ingradients-user-name">
-        </label>
-        <input
-          class="modal__name"
-          type="text"
-          name="ingradients-user-name"
-          id="ingradients-user-name"
-          placeholder="Name"
-        />
+        <div class="modal__comment--wrapped">
+          <label for="ingradients-user-comment" name="ingradients-user-comment">
+          </label>
+          <textarea
+            class="modal__comment"
+            name="ingradients-user-comment"
+            id="ingradients-user-comment"
+            placeholder="Comment"
+          ></textarea>
+        </div>
       </div>
-      <div>
-        <label for="ingradients-user-tel" name="ingradients-user-tel"> </label>
-        <input
-          class="modal__tel"
-          type="tel"
-          name="ingradients-user-tel"
-          id="ingradients-user-tel"
-          placeholder="Phone"
-        />
-      </div>
-
-      <div>
-        <label for="ingradients-user-comment" name="ingradients-user-comment">
-        </label>
-        <textarea
-          class="modal__comment"
-          name="ingradients-user-comment"
-          id="ingradients-user-comment"
-          placeholder="Comment"
-        ></textarea>
-      </div>
-
-    </div>
 
       <button class="modal__submit" type="submit">Submit</button>
     </form>
-    <button class="modal__btn--closed" type="button" data-modal-close>
+    <button class="modal__btn--closed" type="button">
       <svg width="12" height="12">
         <use href="./images/symbols.svg#icon-modal-close-btn"></use>
       </svg>

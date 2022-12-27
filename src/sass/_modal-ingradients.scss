@@ -1,3 +1,9 @@
+.modal .ingradients {
+  position: fixed;
+  top: 60%;
+  left: 50%;
+}
+
 .ingradients {
   // display: block;
 
@@ -5,18 +11,19 @@
   padding-left: 20px;
   padding-right: 20px;
   padding-top: 28px;
+  padding-bottom: 32px;
   background: #fcfcfc;
   border-radius: 10px;
 
   // временно ширину и высоту выставил фиксированно
 
   @media screen and (max-width: 767px) {
-    height: 968px;
+    // height: 968px;
     width: 280px;
   }
 
   @media screen and (min-width: 768px) {
-    height: 996px;
+    // height: 996px;
     width: 568px;
   }
 }
@@ -95,7 +102,7 @@
 }
 .ingradients__component {
   display: flex;
-  justify-content: center;
+  justify-content: space-evenly;
   margin-top: 24px;
 }
 .ingradients .modal__name,
@@ -136,10 +143,51 @@
 }
 .product_box {
   display: flex;
-  justify-content: center;
+  flex-direction: column;
+  justify-content: space-between;
   align-items: center;
+  // background-size: contain;
+  // background-repeat: no-repeat;
+  width: 53px;
+  height: 72px;
+  border: 2px solid #9cbe8f;
+  border-radius: 40%;
   @media screen and (min-width: 768px) {
     width: 65px;
     height: 90px;
   }
+}
+.product_box--upper {
+  // display: block;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 53px;
+  height: 53px;
+  border-radius: 50%;
+  background-color: #9cbe8f;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 2.33;
+  color: #131313;
+  border: 2px solid #9cbe8f;
+  @media screen and (min-width: 768px) {
+    width: 65px;
+    height: 90px;
+  }
+}
+.product_box--lower {
+  // display: block;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 1.1;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #131313;
 }
