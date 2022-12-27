@@ -73,6 +73,7 @@ max-width: 568px ;
   color: $textColor;
 }
 
+
 .modal__title--map{
 
   @media screen and (min-width: 768px) {margin-bottom: 32px;
@@ -83,3 +84,9 @@ max-width: 568px ;
   }
 
 }
+
+.modal__map--wrapped {
+  display: flex;
+  justify-content: center;
+}
+
