@@ -15,3 +15,21 @@
 .product .modal__comment {
   margin-bottom: 26px;
 }
+
+.checkbox {
+  position: absolute;
+  appearance: none;
+}
+// .checkbox__icon {
+//    display: inline-block;
+//    width: 16px;
+//    height: 15px;
+//   border: 10px solid #bc0b0b;
+//   border-radius: 4px;
+// }
+
+.checkbox:checked + .checkbox__icon {
+  -webkit-appearance: checkbox;
+  z-index: 777;
+  border: 2px solid blueviolet;
+}

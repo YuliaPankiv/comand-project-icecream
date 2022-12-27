@@ -39,6 +39,17 @@ body {
   letter-spacing: 0.04em;
   font-weight: 400;
   font-style: normal;
+
+  width: 100%;
+  background-image: url('../images/galleryImg/backgroud_mobile.png');
+  background-size: contain;
+  background-position: center;
+  @media screen and (min-width: 768px) {
+    background-image: url('../images/galleryImg/background_tablet.png');
+  }
+  @media screen and (min-width: 1200px) {
+    background-image: url('../images/galleryImg/backgroud_desktop.png');
+  }
 }
 
 .container {
@@ -175,6 +186,7 @@ ul {
 .img {
   display: block;
   max-width: 100%;
+  height: auto;
   padding-left: 0;
   padding-right: 0;
 }
