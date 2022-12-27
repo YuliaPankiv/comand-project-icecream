@@ -11,14 +11,9 @@
     margin-bottom: 16px;
   
   }
-
-
-
 }
+
 .franchise .modal__comment {
-
-
-  
 
   @media screen and (max-width:767px) {
     margin-bottom: 24px;
@@ -27,20 +22,16 @@
   
   @media screen and (min-width:768px) {
     margin-bottom: 32px;
-  
-  }
-
-
-
-
+    }
 
 }
+
 input:invalid {
   background-color: red;
   border: green solid 3px;
 }
 
-// Поменял местно отступ верхний с заголовка на модалки , 
+// Поменял местно отступ верхний с заголовка на модалки 
 
 .modal__title{padding-top: 0px;}
 
@@ -64,12 +55,12 @@ input:invalid {
 
 .franchise-modal__text{
   @media screen and (max-width:767px) {
-    margin-bottom:24px;
+    margin-bottom: 24px;
 
   }
 
   @media screen and (min-width:768px) {
-    margin-bottom:32px;
+    margin-bottom: 32px;
   }
 
 }
