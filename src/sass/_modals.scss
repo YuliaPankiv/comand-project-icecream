@@ -16,10 +16,10 @@
   margin-bottom: 26px;
 }
 
-// .checkbox {
-//   position: absolute;
-//   appearance: none;
-// }
+.checkbox {
+  position: absolute;
+  appearance: none;
+}
 // .checkbox__icon {
 //    display: inline-block;
 //    width: 16px;
@@ -28,6 +28,8 @@
 //   border-radius: 4px;
 // }
 
-// .checkbox:checked + .checkbox__icon {
-//   border: 5px solid tomato;
-// }
+.checkbox:checked + .checkbox__icon {
+  -webkit-appearance: checkbox;
+  z-index: 777;
+  border: 2px solid blueviolet;
+}
