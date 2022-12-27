@@ -1,34 +1,11 @@
+:root {
+  --swiper-theme-color: #84a178 ;
+}
 .list {
   list-style: none;
 }
 .customer {
   margin: auto;
-  background-image: url(./../images/customer/Backgroud_mobile.jpg);
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-  @media (min-device-pixel-ratio: 2),
-    (min-resolution: 192dpi),
-    (min-resolution: 2dppx) {
-    background-image: url(./../images/customer/Backgroud_mobile2x.jpg);
-  }
-  @media screen and (min-width: 768px) {
-    background-image: url(./../images/customer/Background_tablet.jpg);
-    @media (min-device-pixel-ratio: 2),
-      (min-resolution: 192dpi),
-      (min-resolution: 2dppx) {
-      background-image: url(./../images/customer/Background_tablet2x.jpg);
-    }
-  }
-  @media screen and (min-width: 1200px) {
-    max-width: 1600px;
-    background-image: url(./../images/customer/Backgroud_desktop.jpg);
-    @media (min-device-pixel-ratio: 2),
-      (min-resolution: 192dpi),
-      (min-resolution: 2dppx) {
-      background-image: url(./../images/customer/Backgroud_desktop2x.jpg);
-    }
-  }
   padding-bottom: 417px;
   @media screen and (min-width: 768px) {
     padding-bottom: 423px;
