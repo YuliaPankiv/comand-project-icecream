@@ -29,7 +29,7 @@
 // }
 
 .checkbox:checked + .checkbox__icon {
-  -webkit-appearance: checkbox;
+  appearance: checkbox;
   z-index: 777;
   border: 2px solid blueviolet;
 }
