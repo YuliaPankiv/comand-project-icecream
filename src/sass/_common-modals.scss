@@ -24,6 +24,7 @@
   top: 50%;
   // top: 20px;
   left: 50%;
+  overflow-y: scroll;
 
   // width: 280px;
   display: block;
@@ -33,7 +34,10 @@
   padding-bottom: 32px;
   background: #fcfcfc;
   border-radius: 10px;
-  transform: translate(-50%, -50%);
+  transform: translate(-50%, -25%);
+  @media screen and (min-width: 768px) {
+    transform: translate(-50%, -50%);
+  }
 }
 .modal__title {
   margin-bottom: 20px;
@@ -79,7 +83,7 @@
   color: $textColor;
 
   @media screen and (min-width: 768px) {
-    // width: 368px;
+    width: 100%;
     display: flex;
     align-items: center;
   }
@@ -88,11 +92,11 @@
 .modal__tel--wrapped,
 .modal__comment--wrapped,
 .modal__email--wrapped {
-  @media screen and (min-width: 768px) {
+  @media screen and (min-width: 767.98px) {
     display: flex;
     align-items: center;
     justify-content: center;
-    // width: 368px;
+    width: 100%;
     padding-left: 100px;
     padding-right: 100px;
   }

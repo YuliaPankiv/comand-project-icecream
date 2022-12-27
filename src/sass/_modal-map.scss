@@ -43,3 +43,7 @@
 .modal__map {
   color: $textColor;
 }
+.modal__map--wrapped {
+  display: flex;
+  justify-content: center;
+}
