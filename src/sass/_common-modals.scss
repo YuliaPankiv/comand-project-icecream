@@ -36,8 +36,6 @@
 }
 .modal__title {
   margin-bottom: 20px;
-
-  // переношу padding-top: 28px; на modal. Верхний оступ с модалки?
   padding-top: 28px;
   font-family: $titleFontFamily;
   font-style: normal;
@@ -80,8 +78,7 @@
   color: $textColor;
 
   @media screen and (min-width: 768px) {
-
-    // width: 368px;
+    min-width: 368px;
     display: flex;
     align-items: center;
   }
