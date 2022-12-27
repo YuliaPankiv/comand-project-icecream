@@ -1,10 +1,35 @@
 .map {
+  padding: 28px;
+
+  // @media screen and (max-width: 479px)
+  // {
+  //   max-width: 280px;
+    
+  // }
+
   @media screen and (min-width: 768px) {
-    min-width: 568px;
+padding-top: 32px;
+padding-left: 60px;
+padding-right: 60px;
+padding-bottom: 32px;
+max-width: 568px ;
+    
+  
   }
 }
+
+
+.modal__form{
+  @media screen and (max-width: 479px)
+  {
+    // width: 224px;
+
+  }
+
+}
+
 .map__box {
-  width: 224px;
+  width: 222px;
   height: 199px;
   margin-bottom: 24px;
   // background-image: url(../images/map.png);
@@ -18,7 +43,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 114px;
+  width: 134px;
   height: 42px;
   margin: 0 auto;
   padding: 0 auto;
@@ -32,6 +57,10 @@
   text-align: center;
   color: $textColor;
 
+  @media screen and (min-width: 768px) {
+    width: 145px;
+  }
+
   &:hover {
     background-color: #0a8817;
   }
@@ -43,7 +72,21 @@
 .modal__map {
   color: $textColor;
 }
+
+
+.modal__title--map{
+
+  @media screen and (min-width: 768px) {margin-bottom: 32px;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 1.4;
+  
+  }
+
+}
+
 .modal__map--wrapped {
   display: flex;
   justify-content: center;
 }
+
