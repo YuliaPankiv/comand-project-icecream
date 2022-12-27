@@ -6,7 +6,7 @@
   height: 100%;
   z-index: 5;
   overflow-y: scroll;
-  background-color: rgba(0, 0, 0, .2);
+  background-color: rgba(0, 0, 0, 0.2);
   transform: scale(1);
   transition-duration: 1000ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
@@ -83,9 +83,7 @@
   color: $textColor;
 
   @media screen and (min-width: 768px) {
-
-  
-    width:100%
+    width: 100%;
     display: flex;
     align-items: center;
   }
