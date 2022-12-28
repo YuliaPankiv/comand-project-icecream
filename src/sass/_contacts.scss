@@ -14,7 +14,10 @@ a {
   color: #131313;
 }
 .section__list {
-  @media screen and (max-width: 767px) {
+  @media screen and (max-width: 479px) {
+    height: 810px;
+  }
+  @media screen and (min-width: 480px) {
     height: 900px;
   }
   @media screen and (min-width: 768px) {
@@ -69,7 +72,7 @@ a {
 .section__item-title {
   background: #f8d24e;
   border-radius: 4px;
-  @media screen and (min-width: 479px) {
+  @media screen and (max-width: 479px) {
     text-overflow: ellipsis;
     white-space: nowrap;
     font-weight: 500;
