@@ -4,57 +4,39 @@
       <h4 class="modal__title">Buy now</h4>
       <ul class="product__img">
         <li class="product__item">
-          <label for="product-icecream" name="product-icecream">
+          <label for="product-icecream">
             <input class="checkbox" type="checkbox" name="product-icecream" id="product-icecream">
-            <div class="div-box one">
-              <div class="div-shadow one"></div>
-              <source media="(min-width: 280px)" srcset="
-                ./images/modals/product/img1@1x.png 1x,
-                ./images/modals/product/img1@2x.png 2x
-              " type="image/png" />
-              <img class="img-check" src="./images/modals/product/img1@1x.png" alt="Ice Cream" />
-              </picture>
-              <span class="title-check">ice cream</span>
-            </div>
+            <span class="div-box one title-check">ice cream</span>
+            <span class="div-img img-cream "></span>
+            <span class="div-shadow one"></span>
+          </label>
         </li>
         <li class="product__item">
-          <label for="product-coffee" name="product-coffee">
+          <label for="product-coffee">
             <input class="checkbox" type="checkbox" name="product-coffee" id="product-coffee">
-            <div class="div-box two">
-              <div class="div-shadow two"></div>
-              <source media="(min-width: 280px)" srcset="
-                ./images/modals/product/img2@1x.png 1x,
-                ./images/modals/product/img2@2x.png 2x
-              " type="image/png" />
-              <img class="img-check" src="./images/modals/product/img2@1x.png" alt="Ice Coffee" />
-              </picture>
-              <span class="title-check">ice coffee</span>
+            <span class="div-box two title-check">ice coffee</span>
+            <span class="div-img img-coffee"></span>
+            <span class="div-shadow two"></span>
+          </label>
         </li>
         <li class="product__item">
-          <label for="product-milkshake" name="product-milkshake">
+          <label for="product-milkshake">
             <input class="checkbox" type="checkbox" name="product-milkshake" id="product-milkshake">
-            <div class="div-box three">
-              <div class="div-shadow three "></div>
-              <source media="(min-width: 280px)" srcset="
-                ./images/modals/product/img3@1x.png 1x,
-                ./images/modals/product/img3@2x.png 2x
-              " type="image/png" />
-              <img class="img-check" src="./images/modals/product/img3@1x.png" alt="Milkshake" />
-              </picture>
-              <span class="title-check">milkshake</span>
+            <span class="div-box three title-check">milkshakes</span>
+            <span class="div-img img-milkshakes"></span>
+            <span class="div-shadow three"></span>
+          </label>
         </li>
-
       </ul>
-
       <div class="modal__name--wrapped">
         <label for="product-user-name" name="product-user-name"> </label>
-        <input class="modal__name" type="text" pattern="[a-zA-Zа-яА-ЯіІїЇ]+" name="product-user-name"
-          id="product-user-name" placeholder="Name" />
+        <input class="modal__name" type="text" pattern="[a-z]" name="product-user-name" id="product-user-name"
+          placeholder="Name" />
       </div>
       <div class="modal__tel--wrapped">
         <label for="product-user-tel" name="product-user-tel"> </label>
-        <input class="modal__tel" type="tel" pattern="[0-9]+" title="xxxxxxxxxx" name="
-          product-user-tel" id="product-user-tel" placeholder="Phone" />
+        <input class="modal__tel" type="tel" pattern="[0-9]" name="product-user-tel" id="product-user-tel"
+          placeholder="Phone" />
       </div>
 
       <div class="modal__comment--wrapped">
@@ -66,7 +48,7 @@
       <button class="modal__submit" type="submit">Submit</button>
     </form>
     <button class="modal__btn--closed" type="button" data-modal-close="0">
-      <svg width="20" height="20">
+      <svg width="12" height="12">
         <use href="./images/symbols.svg#icon-modal-close-btn"></use>
       </svg>
     </button>
