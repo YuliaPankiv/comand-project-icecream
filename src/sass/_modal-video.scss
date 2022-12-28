@@ -25,3 +25,28 @@
   display: flex;
   justify-content: center;
 }
+
+
+.video{
+  padding-bottom: 28px;
+  padding-top: 28px;
+
+  @media screen and (min-width: 768px) {
+    padding-bottom: 32px;
+    padding-top: 32px;
+    padding-left: 58px;
+    padding-right: 58px;
+
+  }
+
+}
+
+.modal__title--video{
+  
+  @media screen and (min-width: 768px) {
+    font-weight: 400;
+  font-size: 20px;
+  line-height: 1.4;
+  margin-bottom: 32px;
+}
+}
