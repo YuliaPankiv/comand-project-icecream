@@ -369,10 +369,20 @@ a {
   background: transparent;
   cursor: pointer;
   &:hover {
-    background-color: #d6936d;
+    background-color: $bottonActiveBackgroundColor;
+    border: none;
     transition-property: background-color;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    &:focus {
+      background-color: $bottonActiveBackgroundColor;
+      color: $bottonActiveColor;
+      fill: $bottonActiveColor;
+      border: none;
+      transition-property: background-color;
+      transition-duration: 250ms;
+      transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    }
   }
 }
 .contact-button--color {
