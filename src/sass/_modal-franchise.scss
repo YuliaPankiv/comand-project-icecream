@@ -7,29 +7,23 @@
 .franchise .modal__name,
 .franchise .modal__tel,
 .franchise .modal__email {
-
-  @media screen and (max-width:767px) {
+  @media screen and (max-width: 767px) {
     margin-bottom: 12px;
-
   }
 
-  @media screen and (min-width:768px) {
+  @media screen and (min-width: 768px) {
     margin-bottom: 16px;
-  
   }
 }
 
 .franchise .modal__comment {
-
-  @media screen and (max-width:767px) {
+  @media screen and (max-width: 767px) {
     margin-bottom: 24px;
-  
   }
-  
-  @media screen and (min-width:768px) {
-    margin-bottom: 32px;
-    }
 
+  @media screen and (min-width: 768px) {
+    margin-bottom: 32px;
+  }
 }
 
 input:invalid {
@@ -37,48 +31,41 @@ input:invalid {
   border: green solid 3px;
 }
 
-// Поменял местно отступ верхний с заголовка на модалки 
+// Поменял местно отступ верхний с заголовка на модалки
 
-.modal__title{padding-top: 0px;}
+.modal__title {
+  padding-top: 0px;
+}
 
-.franchise{
+.franchise {
   padding-top: 28px;
 
-@media screen and (min-width:320px) {
-  min-width: 280px;
-  min-height: 674px;
-
-}
-
-@media screen and (min-width:768px) {
-  min-width: 568px;
-  min-height: 668px;
-
-}
-}
-
-
-
-.franchise-modal__text{
-  @media screen and (max-width:767px) {
-    margin-bottom: 24px;
-
+  @media screen and (min-width: 320px) {
+    min-width: 280px;
+    min-height: 674px;
   }
 
-  @media screen and (min-width:768px) {
+  @media screen and (min-width: 768px) {
+    min-width: 568px;
+    min-height: 588px;
+  }
+}
+
+.franchise-modal__text {
+  @media screen and (max-width: 767px) {
+    margin-bottom: 24px;
+  }
+
+  @media screen and (min-width: 768px) {
     margin-bottom: 32px;
   }
-
 }
 
-
-.franchise-modal__title{
-  @media screen and (min-width:768px) {
+.franchise-modal__title {
+  @media screen and (min-width: 768px) {
     font-weight: 400;
     font-size: 20px;
     line-height: 1.4;
     margin-bottom: 24px;
-
   }
-
 }
