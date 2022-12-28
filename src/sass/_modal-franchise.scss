@@ -1,9 +1,10 @@
-// .franchise {
-//   transform: translate(-50%, -15%);
-//   @media screen and (min-width: 768px) {
-//     transform: translate(-50%, -50%);
-//   }
-// }
+.franchise {
+  @media screen and (min-width: 768px) {
+    // transform: translate(-50%, -25%);
+    top: 5%;
+    // height: 100vh;
+  }
+}
 .franchise .modal__name,
 .franchise .modal__tel,
 .franchise .modal__email {
@@ -46,8 +47,8 @@ input:invalid {
   }
 
   @media screen and (min-width: 768px) {
-    min-width: 568px;
-    min-height: 588px;
+   
+   min-height: 588px;
   }
 }
 

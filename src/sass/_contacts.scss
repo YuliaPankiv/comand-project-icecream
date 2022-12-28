@@ -32,6 +32,12 @@ a {
   box-shadow: 0px 8px 30px rgba(212, 20, 67, 0.1);
   border-radius: 24px;
   padding: 0;
+    transition-property: #0a8817;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  &:hover {
+    filter: drop-shadow(8px 8px 8px rgba(0, 0, 0, 0.5));
+  }
   @media screen and (max-width: 479px) {
     width: 280px;
     padding: 40px 32px 24px 32px;
