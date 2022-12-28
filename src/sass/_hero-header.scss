@@ -34,6 +34,12 @@
 }
 .logo {
   display: inline-block;
+  transition: scale 450ms cubic-bezier(0.4, 0, 0.2, 1);
+
+  &:hover,
+  &:focus {
+    scale: 1.2;
+  }
 }
 
 .logo__img {
@@ -105,6 +111,8 @@
   font-family: inherit;
   color: $secondaryColor;
   font-weight: 700;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+  background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
   &:hover,
   &:focus {
@@ -190,6 +198,11 @@
   background-color: $bottonDefoultColor;
   border: none;
   cursor: pointer;
+
+  // display: none;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+      background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
 
   @media screen and (max-width: 480px) {
     display: none;
@@ -306,6 +319,9 @@
   font-family: inherit;
   font-weight: 600;
 
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+      background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
   @media screen and (max-width: 480px) {
     font-size: 12px;
     line-height: calc(15 / 12);
@@ -322,6 +338,9 @@
   border-radius: 10px;
   text-decoration: none;
   color: $bottonBorderColor;
+
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+      background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
   &:hover {
     border-color: $bottonActiveBackgroundColor;
@@ -344,6 +363,9 @@
   color: $bottonDefoultColor;
   margin-left: 12px;
   padding: 0;
+
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+      background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
   &:hover {
     color: $bottonActiveBackgroundColor;
@@ -378,11 +400,21 @@
   }
 }
 .hero-content__img {
+
+  transition: transform 1200ms cubic-bezier(0.4, 0, 0.2, 1) 50ms;
+
   @media screen and (min-width: 481px) and (max-width: 768px) {
     width: 20%;
     max-width: 152px;
+
   }
 }
+
+.hero-content__img:hover {
+  transform: rotate(360deg);
+}
+
+
 .hero-content__btn {
   background-color: transparent;
   border: none;
@@ -465,9 +497,16 @@
   line-height: calc(34 / 28);
   letter-spacing: 0.04em;
 
+  transition: scale 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
   @media screen and (min-width: 769px) {
     font-size: 46px;
     line-height: calc(56 / 46);
+  }
+
+  &:hover,
+  &:focus {
+    scale: 1.2;
   }
 }
 .hero-list__text {

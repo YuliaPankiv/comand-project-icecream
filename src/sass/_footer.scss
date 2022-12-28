@@ -150,6 +150,11 @@
 .foot-social__mobile {
   color: $secondaryColor;
   text-decoration: none;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  
+  &:hover {
+    color: #F8D24E;
+  }
 }
 
 .site-footer__copyright {
@@ -211,7 +216,8 @@
   align-items: center;
   justify-content: center;
   transition:
- background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  // background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+  fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 // после запятой bg, (прописываем, если нужно fill менять тоже)  fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
 

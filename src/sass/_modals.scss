@@ -28,8 +28,13 @@
 //   border-radius: 4px;
 // }
 
+
+.checkbox:checked + .checkbox__icon {
+   -webkit-appearance: checkbox;
+
 .checkbox:checked + .div-box {
   -webkit-appearance: checkbox;
+
   z-index: 777;
 }
 .checkbox:checked + .div-box.one {
