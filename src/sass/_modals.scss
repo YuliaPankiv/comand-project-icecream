@@ -8,6 +8,16 @@
   }
 }
 
+.product.modal {
+  min-width: 280px;
+  padding-top: 28px;
+  padding-bottom: 29px;
+  @media screen and (min-width: 768px) {
+    width: 568px;
+    padding-top: 32px;
+    padding-bottom: 32px;
+  }
+}
 .product .modal__name,
 .product .modal__tel {
   margin-bottom: 12px;
