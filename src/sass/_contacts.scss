@@ -1,5 +1,5 @@
 .container__contacts {
-  background-color: #84a178;
+  background-color: $primaryColor;
   width: 100%;
 }
 
@@ -11,7 +11,7 @@ ul {
 
 a {
   text-decoration: none;
-  color: #131313;
+  color: $textColor;
 }
 .section__list {
   @media screen and (max-width: 479px) {
@@ -28,7 +28,7 @@ a {
   }
 }
 .section__item {
-  background-color: #fcfcfc;
+  background-color: $secondaryColor;
   box-shadow: 0px 8px 30px rgba(212, 20, 67, 0.1);
   border-radius: 24px;
   padding: 0;
@@ -70,60 +70,43 @@ a {
   }
 }
 .section__item-title {
-  background: #f8d24e;
+  background: $bottonDefoultColor;
   border-radius: 4px;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  font-weight: 500;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.04em;
+  color: $textColor;
+  margin-top: 0;
   @media screen and (max-width: 479px) {
-    text-overflow: ellipsis;
-    white-space: nowrap;
-    font-weight: 500;
     font-size: 10px;
     line-height: 100%;
-    align-items: center;
-    text-align: center;
-    letter-spacing: 0.04em;
-    color: #131313;
     padding: 4px 22px;
     max-width: 80px;
-    margin-top: 0;
     margin-bottom: 20px;
   }
   @media screen and (min-width: 480px) {
-    text-overflow: ellipsis;
-    white-space: nowrap;
-    font-weight: 500;
     font-size: 12px;
     line-height: 120%;
-    align-items: center;
-    text-align: center;
-    letter-spacing: 0.04em;
-    color: #131313;
     padding: 4px 22px;
     max-width: 80px;
-    margin-top: 0;
     margin-bottom: 20px;
   }
   @media screen and (min-width: 768px) {
-    font-weight: 500;
     font-size: 16px;
     line-height: 140%;
-    text-align: center;
-    letter-spacing: 0.04em;
-    color: #131313;
     padding: 4px 13px;
     max-width: 73px;
-    margin-top: 0;
     margin-bottom: 32px;
   }
   @media screen and (min-width: 1200px) {
-    font-weight: 500;
     font-size: 16px;
     line-height: 140%;
-    text-align: center;
-    letter-spacing: 0.04em;
-    color: #131313;
     padding: 4px 14px;
     max-width: 76px;
-    margin-top: 0;
+
     margin-bottom: 32px;
   }
 }
@@ -131,7 +114,6 @@ a {
   @media screen and (max-width: 479px) {
     max-width: 120px;
   }
-
   @media screen and (min-width: 480px) {
     max-width: 130px;
   }
@@ -144,78 +126,51 @@ a {
   }
 }
 .section__item-name {
+  font-weight: 500;
+  line-height: 186%;
+  letter-spacing: 0.04em;
+  color: $textColor;
+  margin-top: 0;
   @media screen and (max-width: 479px) {
-    font-weight: 500;
     font-size: 10px;
-    line-height: 186%;
-    letter-spacing: 0.04em;
-    color: #131313;
-    margin-top: 0;
     margin-bottom: 8px;
   }
   @media screen and (min-width: 480px) {
-    font-weight: 500;
     font-size: 12px;
-    line-height: 186%;
-    letter-spacing: 0.04em;
-    color: #131313;
-    margin-top: 0;
     margin-bottom: 8px;
   }
   @media screen and (min-width: 768px) {
-    font-weight: 500;
     font-size: 14px;
-    line-height: 186%;
-    letter-spacing: 0.04em;
-    color: #131313;
-    margin-top: 0;
     margin-bottom: 12px;
   }
   @media screen and (min-width: 1200px) {
-    font-weight: 500;
     font-size: 16px;
-    line-height: 186%;
-    letter-spacing: 0.04em;
-
-    color: #131313;
-    margin-top: 0;
     margin-bottom: 8px;
   }
 }
 .section__item-link {
+  font-weight: 500;
+  line-height: 183%;
+  letter-spacing: 0.04em;
+  color: $productsThirdBackgrondColor;
   @media screen and (max-width: 479px) {
-    font-weight: 500;
     font-size: 10px;
-    line-height: 183%;
-    letter-spacing: 0.04em;
-    color: #d6936d;
+
     &:hover {
       text-decoration: underline;
     }
   }
   @media screen and (min-width: 480px) {
-    font-weight: 500;
     font-size: 12px;
-    line-height: 183%;
-    letter-spacing: 0.04em;
-    color: #d6936d;
     &:hover {
       text-decoration: underline;
     }
   }
   @media screen and (min-width: 768px) {
-    font-weight: 500;
     font-size: 14px;
-    line-height: 183%;
-    letter-spacing: 0.04em;
-    color: #d6936d;
   }
   @media screen and (min-width: 1200px) {
-    font-weight: 500;
     font-size: 16px;
-    line-height: 183%;
-    letter-spacing: 0.04em;
-    color: #d6936d;
   }
 }
 .schedule {
@@ -239,82 +194,55 @@ a {
   }
 }
 .section__schedule-item {
+  font-weight: 500;
+  line-height: 186%;
+  color: $textColor;
   @media screen and (max-width: 479px) {
-    font-weight: 500;
     font-size: 10px;
-    line-height: 186%;
-    color: #131313;
   }
   @media screen and (min-width: 480px) {
-    font-weight: 500;
     font-size: 12px;
-    line-height: 186%;
-    color: #131313;
   }
   @media screen and (min-width: 768px) {
-    font-weight: 500;
     font-size: 14px;
-    line-height: 186%;
-    color: #131313;
   }
   @media screen and (min-width: 1200px) {
-    font-weight: 500;
     font-size: 16px;
-    line-height: 186%;
-    color: #131313;
   }
 }
 .schedule-item {
+  font-weight: 500;
+  line-height: 186%;
+  color: #ababab;
   @media screen and (max-width: 479px) {
-    font-weight: 500;
     font-size: 10px;
-    line-height: 186%;
-    color: #ababab;
   }
   @media screen and (min-width: 480px) {
-    font-weight: 500;
     font-size: 12px;
-    line-height: 186%;
-    color: #ababab;
   }
   @media screen and (min-width: 768px) {
-    font-weight: 500;
     font-size: 14px;
-    line-height: 186%;
-    color: #ababab;
   }
   @media screen and (min-width: 1200px) {
-    font-weight: 500;
     font-size: 16px;
-    line-height: 186%;
-    color: #ababab;
   }
 }
 .section__contact-tel,
 .section__contact-mail {
+  font-weight: 500;
+  line-height: 160%;
+  color: $textColor;
   @media screen and (max-width: 479px) {
-    font-weight: 500;
     font-size: 12px;
-    line-height: 160%;
-    color: #131313;
   }
   @media screen and (min-width: 480px) {
-    font-weight: 500;
     font-size: 12px;
-    line-height: 160%;
-    color: #131313;
   }
   @media screen and (min-width: 768px) {
-    font-weight: 500;
     font-size: 14px;
-    line-height: 160%;
-    color: #131313;
   }
   @media screen and (min-width: 1200px) {
-    font-weight: 500;
     font-size: 16px;
-    line-height: 160%;
-    color: #131313;
   }
 }
 .section__schedule {
