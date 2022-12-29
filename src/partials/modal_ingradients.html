@@ -8,12 +8,14 @@
         <p>icecream</p>
       </h4>
       <div class="ingradients__img">
-        <img
-          scrset="./images/modals/ingredients/mob_ingr1_@1x_132.jpg 1x, ./images/modals/ingredients/mob_ingr1_@2x_264.jpg 2x"
-          src="./images/modals/ingredients/mob_ingr1_@1x_132.jpg"
-          alt="ice-cream"
-          width="132"
-        />
+        <picture class="">
+          <source srcset="./images/modals/ingredients/img@1x.png 1x, 
+                  ./images/modals/ingredients/img@2x.png 2x" />
+          <img src="./images/modals/ingredients/img@1x.png" alt="img2" class="ingradients__img-ice" />
+        </picture>
+
+        <div class="img-shadow"></div>
+
       </div>
       <ul class="ingradients__component">
         <li class="product_box">
@@ -157,42 +159,21 @@
         <div class="modal__name--wrapped">
           <label for="ingradients-user-name" name="ingradients-user-name">
           </label>
-          <input
-            class="modal__name"
-            type="text"
-
-            pattern="[a-zA-Z-_]+"
-
-            name="ingradients-user-name"
-            id="ingradients-user-name"
-            placeholder="Name"
-          />
+          <input class="modal__name" type="text" pattern="[a-zA-Z-_]+" name="ingradients-user-name"
+            id="ingradients-user-name" placeholder="Name" />
         </div>
         <div class="modal__tel--wrapped">
           <label for="ingradients-user-tel" name="ingradients-user-tel">
           </label>
-          <input
-            class="modal__tel"
-            type="tel"
-            pattern="[0-9]+"
-
-            title="xxxxxxxxxxxx"
-
-            name="ingradients-user-tel"
-            id="ingradients-user-tel"
-            placeholder="Phone"
-          />
+          <input class="modal__tel" type="tel" pattern="[0-9]+" title="xxxxxxxxxxxx" name="ingradients-user-tel"
+            id="ingradients-user-tel" placeholder="Phone" />
         </div>
 
         <div class="modal__comment--wrapped">
           <label for="ingradients-user-comment" name="ingradients-user-comment">
           </label>
-          <textarea
-            class="modal__comment"
-            name="ingradients-user-comment"
-            id="ingradients-user-comment"
-            placeholder="Comment"
-          ></textarea>
+          <textarea class="modal__comment" name="ingradients-user-comment" id="ingradients-user-comment"
+            placeholder="Comment"></textarea>
         </div>
       </div>
 
