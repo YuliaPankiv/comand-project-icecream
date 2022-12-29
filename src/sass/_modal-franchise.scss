@@ -29,7 +29,7 @@
 
 input:invalid {
   background-color: red;
-  border: green solid 3px;
+  border: green solid 2px;
 }
 
 // Поменял местно отступ верхний с заголовка на модалки
@@ -47,8 +47,7 @@ input:invalid {
   }
 
   @media screen and (min-width: 768px) {
-   
-   min-height: 588px;
+    min-height: 588px;
   }
 }
 
