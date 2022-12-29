@@ -146,12 +146,13 @@
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
+  text-align: center;
   // background-size: contain;
   // background-repeat: no-repeat;
   width: 53px;
   height: 72px;
   border: 2px solid #9cbe8f;
-  border-radius: 45%;
+  border-radius: 40px;
 
   @media screen and (min-width: 768px) {
     width: 65px;
@@ -189,8 +190,9 @@
   font-weight: 400;
   font-size: 8px;
   line-height: 1;
-  display: flex;
+  display: block;
   align-items: center;
   text-align: center;
   color: #131313;
+  margin-bottom: 15px;
 }
